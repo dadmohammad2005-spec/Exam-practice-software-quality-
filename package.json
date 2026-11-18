@@ -1,0 +1,17 @@
+{
+  "name": "sqe-exam-browser",
+  "version": "1.0.0",
+  "description": "Software Quality Engineering Exam Browser and MCQ Prep Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "exam",
+    "sqe",
+    "software-quality-engineering",
+    "mcqs"
+  ],
+  "author": "Dad Mohammad",
+  "license": "MIT"
+}
