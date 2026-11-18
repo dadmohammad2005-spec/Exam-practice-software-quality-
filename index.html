@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQE Exam Browser & MCQ Prep Hub</title>
+  <meta name="description" content="Dedicated Exam Browser and MCQ Practice Platform for Software Quality Engineering (SQE). Complete with 245 verified questions, official mock simulations, timer, and detailed teacher rationales.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top App Navigation Bar -->
+  <header class="app-header">
+    <div class="brand" id="app-brand" title="Return to Dashboard">
+      <div class="brand-icon">SQE</div>
+      <div class="brand-info">
+        <h1>SQE Exam Browser</h1>
+        <p>Software Quality Engineering Prep</p>
+      </div>
+    </div>
+
+    <!-- Header Center: Mode & Timer -->
+    <div class="header-center">
+      <div id="header-mode-badge" class="mode-badge" style="display: none;"></div>
+      <div id="header-timer-box" class="timer-box" style="display: none;">
+        <span>⏱️</span>
+        <span id="timer-display">45:00</span>
+      </div>
+    </div>
+
+    <!-- Header Controls -->
+    <div class="header-actions">
+      <button id="header-exit-btn" class="btn btn-secondary" style="display: none;">
+        Exit Session
+      </button>
+      <button id="shortcuts-btn" class="icon-btn" title="Keyboard Shortcuts (?)" aria-label="Keyboard Shortcuts">
+        ⌨️
+      </button>
+      <button id="sound-toggle-btn" class="icon-btn" title="Toggle Sound (On)" aria-label="Toggle Sound">
+        🔔
+      </button>
+      <button id="theme-toggle-btn" class="icon-btn" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+        ☀️
+      </button>
+      <button id="fs-toggle-btn" class="icon-btn" title="Kiosk / Fullscreen Mode" aria-label="Fullscreen Mode">
+        ⛶
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Viewport -->
+  <main class="main-viewport">
+
+    <!-- ====================================================================
+         VIEW 1: HOME DASHBOARD
+         ==================================================================== -->
+    <section id="view-home" class="home-view">
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <div class="hero-text">
+          <h2>Software Quality Engineering (SQE) Prep Hub</h2>
+          <p>
+            Master your SQE exam with <strong>245 extracted and verified MCQs</strong> from your course materials.
+            Practice with full timer simulation, instant feedback, and comprehensive teacher verification notes.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-chip">
+            <div class="val" id="stat-total-mcqs">245</div>
+            <div class="lbl">Total MCQs</div>
+          </div>
+          <div class="stat-chip">
+            <div class="val" id="stat-mistakes" style="color:var(--danger);">0</div>
+            <div class="lbl">Mistakes to Fix</div>
+          </div>
+          <div class="stat-chip">
+            <div class="val" id="stat-bookmarks" style="color:#eab308;">0</div>
+            <div class="lbl">Bookmarked</div>
+          </div>
+          <div class="stat-chip">
+            <div class="val" id="stat-avg-score" style="color:var(--success);">N/A</div>
+            <div class="lbl">Avg Score</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Launch Modes -->
+      <div>
+        <div class="section-title">
+          <h3>⚡ Exam & Practice Modes</h3>
+          <button id="open-bank-browser-btn" class="btn btn-secondary" style="font-size:0.8rem;">
+            🔍 Search All 245 Questions
+          </button>
+        </div>
+        <div class="modes-grid">
+          <!-- Official SQE Exam Simulation -->
+          <div class="mode-card featured">
+            <span class="mode-card-badge">Official Paper</span>
+            <div class="mode-icon">🎓</div>
+            <h3>Official Exam Simulation</h3>
+            <p>
+              Take the authentic 35-question SQE Examination under strict 45-minute timed conditions with question palette and post-test review.
+            </p>
+            <div class="mode-meta">
+              <span>35 MCQs • 45 Mins</span>
+              <button id="launch-official-exam" class="btn btn-primary">Start Exam →</button>
+            </div>
+          </div>
+
+          <!-- Rapid 50 Mock Exam -->
+          <div class="mode-card">
+            <div class="mode-icon">🎲</div>
+            <h3>Full Mock Exam (Shuffled)</h3>
+            <p>
+              50 randomized questions pulled across all modules and sets to test overall retention and readiness before the real exam.
+            </p>
+            <div class="mode-meta">
+              <span>50 MCQs • 60 Mins</span>
+              <button id="launch-bank-mock" class="btn btn-primary">Start Mock →</button>
+            </div>
+          </div>
+
+          <!-- 245 Marathon Practice -->
+          <div class="mode-card">
+            <div class="mode-icon">📚</div>
+            <h3>Complete 245 MCQ Marathon</h3>
+            <p>
+              Study every single question with immediate explanations, option breakdowns, and lecture slide references.
+            </p>
+            <div class="mode-meta">
+              <span>245 MCQs • Untimed</span>
+              <button id="launch-marathon" class="btn btn-secondary">Start Practice →</button>
+            </div>
+          </div>
+
+          <!-- Mistakes Revision Bank -->
+          <div class="mode-card">
+            <div class="mode-icon">🎯</div>
+            <h3>Mistakes Revision Bank</h3>
+            <p>
+              Target your weak spots. Drill only on questions you have previously answered incorrectly until you achieve 100% mastery.
+            </p>
+            <div class="mode-meta">
+              <span>Dynamic • Custom</span>
+              <button id="launch-mistakes" class="btn btn-danger">Fix Mistakes →</button>
+            </div>
+          </div>
+
+          <!-- Bookmarked Questions -->
+          <div class="mode-card">
+            <div class="mode-icon">⭐</div>
+            <h3>Saved & Starred Questions</h3>
+            <p>
+              Review tricky concepts and high-yield questions you flagged for fast last-minute revision before exam day.
+            </p>
+            <div class="mode-meta">
+              <span>Custom List</span>
+              <button id="launch-bookmarks" class="btn btn-secondary">Review Starred →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Practice by Module / Topic -->
+      <div>
+        <div class="section-title">
+          <h3>📖 Practice by Topic & Module</h3>
+          <span style="font-size:0.8rem; color:var(--text-muted);">Select a module to start immediate-feedback drill</span>
+        </div>
+        <div id="home-topics-grid" class="topic-list-grid">
+          <!-- Generated Dynamically -->
+        </div>
+      </div>
+
+      <!-- Recent Exam Attempts History -->
+      <div>
+        <div class="section-title">
+          <h3>📈 Recent Exam Attempts</h3>
+          <button id="reset-stats-btn" class="btn btn-secondary" style="font-size:0.75rem; color:var(--danger); border-color:var(--danger-border);">
+            Reset All History
+          </button>
+        </div>
+        <div id="recent-history-list" style="display:flex; flex-direction:column; gap:0.6rem;">
+          <!-- Generated Dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 2: ACTIVE EXAM & PRACTICE SESSION
+         ==================================================================== -->
+    <section id="view-exam" class="exam-view" style="display: none;">
+      <!-- Main Question Column -->
+      <div class="exam-main">
+        <!-- Question Meta Header -->
+        <div class="q-header">
+          <div class="q-indicators">
+            <span id="q-current-badge" class="q-badge">Question 1 of 35</span>
+            <span id="q-topic-badge" class="topic-badge">SQE Discipline</span>
+            <span id="q-source-badge" class="topic-badge" style="display:none;">Source</span>
+          </div>
+          <div class="q-tools">
+            <button id="q-flag-btn" class="flag-btn" title="Flag for Review (Shortcut: F)">
+              🚩 Flag
+            </button>
+            <button id="q-bookmark-btn" class="bookmark-btn" title="Bookmark Question">
+              ☆
+            </button>
+          </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="q-card">
+          <div id="q-text-content" class="q-text">
+            Loading question text...
+          </div>
+
+          <!-- Options Stack -->
+          <div id="options-stack" class="options-stack">
+            <!-- Rendered Dynamically -->
+          </div>
+
+          <!-- Immediate Feedback / Teacher Notes Explanation Box -->
+          <div id="explanation-box" class="explanation-box" style="display: none;">
+            <div class="explanation-header">
+              <span id="expl-correct-letter">Correct Answer: Option B</span>
+              <span>📘 Source Rationale</span>
+            </div>
+            <div id="expl-text" class="explanation-body">
+              Explanation details will appear here.
+            </div>
+          </div>
+        </div>
+
+        <!-- Exam Navigation Footer -->
+        <div class="exam-footer">
+          <div class="nav-group-left">
+            <button id="nav-prev-btn" class="btn btn-secondary">
+              ← Previous (P)
+            </button>
+            <button id="nav-clear-btn" class="btn btn-secondary" style="font-size:0.8rem;">
+              Clear Selection (C)
+            </button>
+          </div>
+          <div class="nav-group-right">
+            <button id="nav-next-btn" class="btn btn-primary">
+              Next Question (N) →
+            </button>
+            <button id="nav-submit-btn" class="btn btn-success">
+              Finish / Submit Exam
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question Palette Sidebar (Sticky) -->
+      <aside class="palette-sidebar">
+        <div class="palette-title">
+          <span>Question Palette</span>
+          <span id="palette-count-label" style="font-size:0.8rem; color:var(--text-muted);">0/35 Answered</span>
+        </div>
+
+        <div class="palette-legend">
+          <div class="legend-item"><div class="legend-color unvisited"></div> Unvisited</div>
+          <div class="legend-item"><div class="legend-color answered"></div> Answered</div>
+          <div class="legend-item"><div class="legend-color flagged"></div> Flagged</div>
+          <div class="legend-item"><div class="legend-color current"></div> Current</div>
+        </div>
+
+        <div id="palette-grid" class="palette-grid">
+          <!-- Rendered Dynamically -->
+        </div>
+      </aside>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 3: EXAM SCORE REPORT / RESULTS
+         ==================================================================== -->
+    <section id="view-results" class="results-view" style="display: none;">
+      <div class="result-card-hero">
+        <h2 style="font-size:1.6rem; font-weight:800;">Exam Performance Summary</h2>
+        <div id="res-score-circle" class="score-circle pass">
+          <div id="res-score-val" class="score-val">85%</div>
+          <div class="score-pct">Score</div>
+        </div>
+        <div id="res-verdict" class="result-verdict pass">Congratulations! You Passed</div>
+
+        <div class="results-grid-summary">
+          <div class="res-stat">
+            <div id="res-stat-score" class="val">30 / 35</div>
+            <div class="lbl">Raw Score</div>
+          </div>
+          <div class="res-stat">
+            <div id="res-stat-accuracy" class="val">85.7%</div>
+            <div class="lbl">Accuracy</div>
+          </div>
+          <div class="res-stat">
+            <div id="res-stat-time" class="val">18:42</div>
+            <div class="lbl">Time Taken</div>
+          </div>
+          <div class="res-stat">
+            <div id="res-stat-passing" class="val">60%</div>
+            <div class="lbl">Passing Mark</div>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:0.75rem; margin-top:1.25rem; flex-wrap:wrap; justify-content:center;">
+          <button id="res-review-btn" class="btn btn-primary">
+            🔍 Review All Questions with Notes
+          </button>
+          <button id="res-retake-btn" class="btn btn-secondary">
+            🔄 Retake Exam
+          </button>
+          <button id="res-home-btn" class="btn btn-secondary">
+            ← Return to Dashboard
+          </button>
+        </div>
+      </div>
+
+      <!-- Topic Performance Breakdown -->
+      <div class="topic-breakdown-card">
+        <h3 style="font-size:1.1rem; font-weight:700;">Topic-Wise Performance Breakdown</h3>
+        <div id="res-topic-bars" style="display:flex; flex-direction:column; gap:0.85rem;">
+          <!-- Rendered Dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 4: QUESTION BANK SEARCH & CRAM SHEET
+         ==================================================================== -->
+    <section id="view-bank" class="bank-view" style="display: none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <h2 style="font-size:1.4rem; font-weight:800;">MCQ Bank Search & Cram Sheet</h2>
+          <p style="color:var(--text-muted); font-size:0.85rem;">Search, study, or print all 245 multiple-choice questions</p>
+        </div>
+        <div style="display:flex; gap:0.5rem;">
+          <button id="bank-print-btn" class="btn btn-secondary" title="Print Cram Sheet">
+            🖨️ Print Cram Sheet
+          </button>
+          <button id="bank-back-home-btn" class="btn btn-primary">
+            ← Back to Home
+          </button>
+        </div>
+      </div>
+
+      <!-- Search & Filters Bar -->
+      <div class="filter-bar">
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="bank-search-input" class="search-input" placeholder="Search keywords (e.g. CSV, ISO-9126, dormant, PKR 100,000, failure)...">
+        </div>
+
+        <select id="bank-topic-filter" class="filter-select">
+          <option value="all">All Topics (5 Modules)</option>
+        </select>
+
+        <select id="bank-source-filter" class="filter-select">
+          <option value="all">All PDF Sources</option>
+          <option value="Software Quality Engineering – MCQ Bank.pdf">MCQ Bank (175 MCQs)</option>
+          <option value="SQE.pdf">SQE Official Paper (35 MCQs)</option>
+          <option value="SQE_MCQs (1).pdf">SQE Quick Drills (35 MCQs)</option>
+        </select>
+
+        <select id="bank-status-filter" class="filter-select">
+          <option value="all">All Status</option>
+          <option value="mistakes">⚠️ My Mistakes Only</option>
+          <option value="bookmarked">⭐ Starred Only</option>
+          <option value="mastered">✔ Mastered</option>
+        </select>
+      </div>
+
+      <div id="bank-results-count" style="font-size:0.85rem; font-weight:600; color:var(--text-muted);">
+        Showing 245 Questions
+      </div>
+
+      <!-- Question List -->
+      <div id="bank-questions-list" class="questions-list">
+        <!-- Rendered Dynamically -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================================
+       MODAL 1: SUBMIT EXAM CONFIRMATION (<dialog> per Modern Web Guidance)
+       ==================================================================== -->
+  <dialog id="dialog-submit-exam" closedby="any" aria-labelledby="dialog-submit-title">
+    <h2 id="dialog-submit-title">Confirm Exam Submission</h2>
+    <p id="modal-submit-summary">
+      Are you sure you want to finish and submit your exam?
+    </p>
+    <div class="dialog-actions">
+      <form method="dialog" style="display:inline;">
+        <button class="btn btn-secondary" value="cancel" autofocus>Continue Exam</button>
+      </form>
+      <button id="confirm-submit-exam-btn" class="btn btn-success">Yes, Submit Exam</button>
+    </div>
+  </dialog>
+
+  <!-- ====================================================================
+       MODAL 2: KEYBOARD SHORTCUTS (<dialog> per Modern Web Guidance)
+       ==================================================================== -->
+  <dialog id="dialog-shortcuts" closedby="any" aria-labelledby="dialog-shortcuts-title">
+    <h2 id="dialog-shortcuts-title">⌨️ Keyboard Shortcuts</h2>
+    <p>Use these shortcuts to navigate the exam browser quickly without touching your mouse:</p>
+    <table class="shortcuts-table">
+      <tbody>
+        <tr>
+          <td><span class="kbd">1</span> or <span class="kbd">A</span></td>
+          <td>Select Option A</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">2</span> or <span class="kbd">B</span></td>
+          <td>Select Option B</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">3</span> or <span class="kbd">C</span></td>
+          <td>Select Option C</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">4</span> or <span class="kbd">D</span></td>
+          <td>Select Option D</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">→</span > or <span class="kbd">N</span></td>
+          <td>Next Question</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">←</span> or <span class="kbd">P</span></td>
+          <td>Previous Question</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">F</span> or <span class="kbd">M</span></td>
+          <td>Flag / Mark for Review</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">C</span></td>
+          <td>Clear Selected Option</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">?</span></td>
+          <td>Open this Shortcuts Dialog</td>
+        </tr>
+        <tr>
+          <td><span class="kbd">Esc</span></td>
+          <td>Close Dialog / Modal</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="dialog-actions">
+      <form method="dialog">
+        <button class="btn btn-primary" autofocus>Got It</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Scripts -->
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

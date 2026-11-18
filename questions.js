@@ -1,0 +1,4168 @@
+// SQE Question Bank - 245 Verified MCQs
+window.SQE_QUESTIONS = [
+  {
+    "id": 1,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q1",
+    "question": "Software Quality Engineering involves the complete development process mainly to ensure that:",
+    "options": {
+      "A": "Testing is done only at the end of the project",
+      "B": "Agreed-upon processes, standards and procedures are being followed",
+      "C": "The cheapest tools are selected",
+      "D": "Only critical standards are applied"
+    },
+    "answer": "B",
+    "explanation": "Software Quality Engineering covers the whole development process to ensure agreed-\nupon processes, standards and procedures are followed, with no cherry picking."
+  },
+  {
+    "id": 2,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q2",
+    "question": "Why is it difficult to define software quality?",
+    "options": {
+      "A": "Software systems are always small and simple",
+      "B": "Quality has one universal definition",
+      "C": "Modern systems interconnect multiple underlying software, with little standardization and a \nvaried nature",
+      "D": "Customers do not care about quality"
+    },
+    "answer": "C",
+    "explanation": "Modern systems are interconnections of multiple underlying software, and the lack of \nstandardization and varied nature make quality hard to define."
+  },
+  {
+    "id": 3,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q3",
+    "question": "In Software Quality Engineering, \"cherry picking\" of standards:",
+    "options": {
+      "A": "Is recommended to save cost",
+      "B": "Should not happen",
+      "C": "Is allowed for small projects",
+      "D": "Is required by International Organization for Standardization 9126"
+    },
+    "answer": "B",
+    "explanation": "The module states that standards must not be cherry picked; the agreed standards are \nfollowed as a whole."
+  },
+  {
+    "id": 4,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q4",
+    "question": "The stakeholders of software development are divided into:",
+    "options": {
+      "A": "Developers and testers",
+      "B": "Managers and users",
+      "C": "Producers and consultants",
+      "D": "Consumers and producers"
+    },
+    "answer": "D",
+    "explanation": "Stakeholders are divided into consumers (users and customers) and producers."
+  },
+  {
+    "id": 5,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q5",
+    "question": "Which group uses the services acquired by the customer?",
+    "options": {
+      "A": "Producers",
+      "B": "Developers",
+      "C": "Users",
+      "D": "Third-party vendors"
+    },
+    "answer": "C",
+    "explanation": "Users use the services that the customer has acquired; the customer is the one who \nacquires the software and services."
+  },
+  {
+    "id": 6,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q6",
+    "question": "Beyond the expectations of users, the customer (who acquires the software) additionally \nconcentrates on:",
+    "options": {
+      "A": "The programming language used",
+      "B": "The cost of the software solution",
+      "C": "Portability only",
+      "D": "The documentation style"
+    },
+    "answer": "B",
+    "explanation": "The customer shares the users' expectations but additionally concentrates on the cost of \nthe software solution."
+  },
+  {
+    "id": 7,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q7",
+    "question": "A user expectation that specified functions work correctly over repeated use or over a long period of \ntime relates to:",
+    "options": {
+      "A": "Portability",
+      "B": "Reliability",
+      "C": "Maintainability",
+      "D": "Efficiency"
+    },
+    "answer": "B",
+    "explanation": "Performing the specified functions correctly over repeated use or a long period is reliability."
+  },
+  {
+    "id": 8,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q8",
+    "question": "What is the biggest concern of producers?",
+    "options": {
+      "A": "Fulfilling contractual obligations by producing software that conforms to specifications",
+      "B": "Reducing the number of users",
+      "C": "Lowering the price of the software",
+      "D": "Marketing the product"
+    },
+    "answer": "A",
+    "explanation": "Producers mainly want to meet their contractual obligations by delivering products that \nconform to the specifications."
+  },
+  {
+    "id": 9,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q9",
+    "question": "Producers of software solutions include:",
+    "options": {
+      "A": "Only end users",
+      "B": "Only customers",
+      "C": "Only testers",
+      "D": "People involved in development, management, maintenance and service, plus third-party \nproducts and organizations"
+    },
+    "answer": "D",
+    "explanation": "Producers include people in development, management, maintenance and service, as well \nas third-party products and organizations."
+  },
+  {
+    "id": 10,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q10",
+    "question": "Plug-and-play products developed and tested independently of a software solution are usually \nknown as:",
+    "options": {
+      "A": "Patches",
+      "B": "Plugins (Off-the-Shelf products)",
+      "C": "Prototypes",
+      "D": "Builds"
+    },
+    "answer": "B",
+    "explanation": "Off-the-Shelf products are plug-and-play items known as plugins, developed and tested \nindependently to provide reusable functionality."
+  },
+  {
+    "id": 11,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q11",
+    "question": "Why should proper analysis be done before selecting an Off-the-Shelf product?",
+    "options": {
+      "A": "Off-the-Shelf products are always free",
+      "B": "Off-the-Shelf products are tested with the solution",
+      "C": "One solution does not fit all",
+      "D": "Off-the-Shelf products cannot be reused"
+    },
+    "answer": "C",
+    "explanation": "One solution does not fit all, so selecting an Off-the-Shelf product needs proper analysis."
+  },
+  {
+    "id": 12,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q12",
+    "question": "International Organization for Standardization 9126 is:",
+    "options": {
+      "A": "An international standard for software evaluation with a hierarchical framework for quality \ndefinition",
+      "B": "A software testing tool",
+      "C": "A project management methodology",
+      "D": "A coding standard"
+    },
+    "answer": "A",
+    "explanation": "International Organization for Standardization 9126 is the international standard for \nsoftware evaluation and gives a hierarchical framework of quality characteristics."
+  },
+  {
+    "id": 13,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q13",
+    "question": "Which of the following is NOT one of the six top-level quality characteristics of International \nOrganization for Standardization 9126 discussed in the module?",
+    "options": {
+      "A": "Reliability",
+      "B": "Maintainability",
+      "C": "Security",
+      "D": "Functionality"
+    },
+    "answer": "C",
+    "explanation": "The six characteristics are functionality, reliability, usability, efficiency, maintainability and \nportability; security is not among them."
+  },
+  {
+    "id": 14,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q14",
+    "question": "The functionality characteristic tells us:",
+    "options": {
+      "A": "How easily software can be learned",
+      "B": "How well software provides and performs the desired functions that satisfy stated or implied \nneeds",
+      "C": "How many resources the software uses",
+      "D": "How well software moves between environments"
+    },
+    "answer": "B",
+    "explanation": "Functionality shows how well the software provides and performs the functions that satisfy \nstated or implied needs."
+  },
+  {
+    "id": 15,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q15",
+    "question": "\"The capability of software to maintain its level of performance under stated conditions for a \nstated period of time\" defines:",
+    "options": {
+      "A": "Efficiency",
+      "B": "Usability",
+      "C": "Reliability",
+      "D": "Functionality"
+    },
+    "answer": "C",
+    "explanation": "This is the definition of reliability: maintaining the performance level under stated \nconditions for a stated period."
+  },
+  {
+    "id": 16,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q16",
+    "question": "The usability characteristic allows stakeholders to conclude how easily a solution can be:",
+    "options": {
+      "A": "Ported",
+      "B": "Learned, understood and used",
+      "C": "Repaired",
+      "D": "Compiled"
+    },
+    "answer": "B",
+    "explanation": "Usability tells how easily a solution can be learned, understood and used."
+  },
+  {
+    "id": 17,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q17",
+    "question": "The 2007 switch from keyboard to touch screen, linked to the quote \"Machines can be user \nfriendly too,\" illustrates:",
+    "options": {
+      "A": "Usability",
+      "B": "Portability",
+      "C": "Reliability",
+      "D": "Maintainability"
+    },
+    "answer": "A",
+    "explanation": "The touch-screen switch made machines easier to use, which is the idea of usability."
+  },
+  {
+    "id": 18,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q18",
+    "question": "Efficiency relates the level of software performance to:",
+    "options": {
+      "A": "The number of developers",
+      "B": "The resources used (disk space, memory, network, and so on)",
+      "C": "The project budget",
+      "D": "The number of defects found"
+    },
+    "answer": "B",
+    "explanation": "Efficiency relates the level of performance to the resources used, such as disk space, \nmemory and network."
+  },
+  {
+    "id": 19,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q19",
+    "question": "Which of the following is a subcomponent of maintainability?",
+    "options": {
+      "A": "Learnability",
+      "B": "Installability",
+      "C": "Throughput",
+      "D": "Stability"
+    },
+    "answer": "D",
+    "explanation": "Analyzability, changeability, testability and stability are the subcomponents of \nmaintainability."
+  },
+  {
+    "id": 20,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q20",
+    "question": "Maintainability refers to attributes that bear on:",
+    "options": {
+      "A": "Moving software to a new operating system",
+      "B": "How easily novices can use the software",
+      "C": "The effort needed to make specified modifications",
+      "D": "The amount of memory consumed"
+    },
+    "answer": "C",
+    "explanation": "Maintainability concerns the effort needed to make specified modifications, that is, to \nidentify and repair faults."
+  },
+  {
+    "id": 21,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q21",
+    "question": "A feature that works in one version of an Operating System but fails in another version of the same \nplatform is mainly a concern of:",
+    "options": {
+      "A": "Usability",
+      "B": "Portability",
+      "C": "Maintainability",
+      "D": "Efficiency"
+    },
+    "answer": "B",
+    "explanation": "Portability is the ability to transfer software from one environment to another, including \ndifferent Operating System versions."
+  },
+  {
+    "id": 22,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q22",
+    "question": "An error is best defined as:",
+    "options": {
+      "A": "A deviation from customer requirement",
+      "B": "An incorrect step in a program",
+      "C": "The inability of a program to behave as expected",
+      "D": "A human action that produces an incorrect result"
+    },
+    "answer": "D",
+    "explanation": "An error is a human action (a programmer's mistake) that produces an incorrect result."
+  },
+  {
+    "id": 23,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q23",
+    "question": "Which of the following is a cause of error according to the module?",
+    "options": {
+      "A": "Hardware failure",
+      "B": "Confusion in understanding the requirements of the software",
+      "C": "Network delays",
+      "D": "Compiler optimization"
+    },
+    "answer": "B",
+    "explanation": "The module lists confusion about requirements, miscalculation and misinterpretation of \nvalues as causes of errors."
+  },
+  {
+    "id": 24,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q24",
+    "question": "In the Hypertext Preprocessor example, writing if ($Amount=100) instead of if \n($Amount==100) is an example of a:",
+    "options": {
+      "A": "Semantic error",
+      "B": "Failure",
+      "C": "Post-release defect",
+      "D": "Latent defect"
+    },
+    "answer": "A",
+    "explanation": "Using = (assignment) instead of == (comparison) is a logic mistake, so it is a semantic error."
+  },
+  {
+    "id": 25,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q25",
+    "question": "A defect refers to:",
+    "options": {
+      "A": "A human action",
+      "B": "A deviation from customer requirement",
+      "C": "An incorrect data definition",
+      "D": "A compile-time warning"
+    },
+    "answer": "B",
+    "explanation": "A defect is a deviation from customer requirement, mostly found after the software is \nshipped."
+  },
+  {
+    "id": 26,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q26",
+    "question": "In the online payment example, the debit card option missing in the production software is a:",
+    "options": {
+      "A": "Bug found before shipping",
+      "B": "Syntax error",
+      "C": "Defect",
+      "D": "Compiler fault"
+    },
+    "answer": "C",
+    "explanation": "The user expects debit card payments, but the production software lacks them, a deviation \nfrom requirements, that is, a defect."
+  },
+  {
+    "id": 27,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q27",
+    "question": "Bugs are the errors found:",
+    "options": {
+      "A": "After the software is shipped",
+      "B": "Before the software is shipped into production",
+      "C": "Only by customers",
+      "D": "Only in hardware"
+    },
+    "answer": "B",
+    "explanation": "Bugs are the errors found before the software is shipped into production."
+  },
+  {
+    "id": 28,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q28",
+    "question": "The Mariner I (1962) failure was caused by:",
+    "options": {
+      "A": "A formula written on paper that was improperly transcribed into computer code",
+      "B": "A hardware malfunction",
+      "C": "A network outage",
+      "D": "An incompatible operating system"
+    },
+    "answer": "A",
+    "explanation": "A formula written in pencil was wrongly transcribed into code, so the rocket's trajectory \nwas miscalculated."
+  },
+  {
+    "id": 29,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q29",
+    "question": "A fault is:",
+    "options": {
+      "A": "The result of a failure",
+      "B": "A human action",
+      "C": "An incorrect step, process or data definition in a computer program",
+      "D": "A missing feature"
+    },
+    "answer": "C",
+    "explanation": "A fault is an incorrect step, process or data definition in a program; faults are the result of \nerrors."
+  },
+  {
+    "id": 30,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q30",
+    "question": "A program meant to add 5 and 3 uses ans = value1 - value2. The wrong sign is the ___ and the \nsubtracted output is the ___.",
+    "options": {
+      "A": "Fault; failure",
+      "B": "Failure; fault",
+      "C": "Error; bug",
+      "D": "Bug; defect"
+    },
+    "answer": "A",
+    "explanation": "The wrong sign in the code is the fault; the resulting incorrect output (subtraction instead \nof addition) is the failure."
+  },
+  {
+    "id": 31,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q31",
+    "question": "According to Laprie, a system failure occurs when:",
+    "options": {
+      "A": "A developer makes a syntax mistake",
+      "B": "A data definition is incorrect",
+      "C": "Documentation is missing",
+      "D": "The delivered service no longer complies with the specification"
+    },
+    "answer": "D",
+    "explanation": "A failure is when the delivered service no longer complies with the agreed specification."
+  },
+  {
+    "id": 32,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q32",
+    "question": "Defect prevention is a strategy to:",
+    "options": {
+      "A": "Remove all testing activities",
+      "B": "Hide defects from customers",
+      "C": "Identify the root causes of defects and prevent them from recurring",
+      "D": "Increase the size of the code"
+    },
+    "answer": "C",
+    "explanation": "Defect prevention identifies the root causes of defects and prevents them from recurring."
+  },
+  {
+    "id": 33,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q33",
+    "question": "In the defect filter figure, customer requirements pass through which sequence of filters?",
+    "options": {
+      "A": "Coding → Testing → Design → Requirement",
+      "B": "Testing → Coding → Requirement → Design",
+      "C": "Design → Requirement → Testing → Coding",
+      "D": "Requirement → Design and Planning → Coding → Testing"
+    },
+    "answer": "D",
+    "explanation": "The figure filters defects in this order: requirement defects, design and planning defects, \ncoding defects, then testing defects."
+  },
+  {
+    "id": 34,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q34",
+    "question": "According to the module, which expectation is unrealistic?",
+    "options": {
+      "A": "Reducing defects through process improvement",
+      "B": "A project or product with a zero bug count",
+      "C": "Training the team",
+      "D": "Finding root causes of defects"
+    },
+    "answer": "B",
+    "explanation": "A zero bug count is unrealistic; even a 99.99% bug-free product is not 100% bug-free."
+  },
+  {
+    "id": 35,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 1: Software Quality Engineering Discipline (Module 01)",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q35",
+    "question": "Defect containment mainly aims to:",
+    "options": {
+      "A": "Add more features",
+      "B": "Remove the testing phase",
+      "C": "Increase fault injection",
+      "D": "Break the causal relation between faults and failures, or reduce the resulting damage"
+    },
+    "answer": "D",
+    "explanation": "Containment breaks the causal relation between faults and failures (tolerating faults) or \nreduces the resulting damage."
+  },
+  {
+    "id": 36,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q1",
+    "question": "Simplistically, quality means that a product should:",
+    "options": {
+      "A": "Be cheap",
+      "B": "Be delivered quickly",
+      "C": "Have many features",
+      "D": "Meet its specification"
+    },
+    "answer": "D",
+    "explanation": "The lecture defines quality, in simple terms, as meeting the specification."
+  },
+  {
+    "id": 37,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q2",
+    "question": "A requirements document says only administrators may export a report, while another \nsection says every user can export it. Which problem with software specifications does this show?",
+    "options": {
+      "A": "They are always complete",
+      "B": "They are always unambiguous",
+      "C": "They are often inconsistent",
+      "D": "They are never written down"
+    },
+    "answer": "C",
+    "explanation": "The lecture says software specifications are usually incomplete and often inconsistent; two \nsections that contradict each other are an inconsistency."
+  },
+  {
+    "id": 38,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q3",
+    "question": "Which of the following is NOT a reason why the \"meet its specification\" view is problematical for \nsoftware?",
+    "options": {
+      "A": "There is a tension between customer and developer quality requirements",
+      "B": "Some quality requirements are difficult to specify unambiguously",
+      "C": "Specifications are usually incomplete and often inconsistent",
+      "D": "Software specifications are always perfect and complete"
+    },
+    "answer": "D",
+    "explanation": "The lecture says specifications are usually incomplete and often inconsistent, so \"always \nperfect\" is false."
+  },
+  {
+    "id": 39,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q4",
+    "question": "The lecture says there is a tension between:",
+    "options": {
+      "A": "Testers and managers",
+      "B": "Hardware and software",
+      "C": "Customer quality requirements and developer quality requirements",
+      "D": "Cost and schedule"
+    },
+    "answer": "C",
+    "explanation": "Customers and developers care about different quality requirements, which creates \ntension."
+  },
+  {
+    "id": 40,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q5",
+    "question": "A product passes every check against its specification, but users cannot apply discount \ncodes because the specification never mentioned them. What does this show?",
+    "options": {
+      "A": "Customers and developers always want the same qualities",
+      "B": "Specifications are usually incomplete",
+      "C": "All quality requirements are easy to specify",
+      "D": "Specifications are always consistent"
+    },
+    "answer": "B",
+    "explanation": "The product met its specification, but the specification missed a needed feature, which \nshows that specifications are usually incomplete."
+  },
+  {
+    "id": 41,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q6",
+    "question": "A team releases a week early by skipping reviews and then receives many defect reports. \nWhich definition of quality did the team put ahead of \"doing it right the first time\"?",
+    "options": {
+      "A": "Consistency",
+      "B": "Perfection",
+      "C": "Eliminating waste",
+      "D": "Speed of delivery"
+    },
+    "answer": "D",
+    "explanation": "Releasing early at the cost of reviews favors speed of delivery over doing it right the first \ntime."
+  },
+  {
+    "id": 42,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q7",
+    "question": "An app calculates everything correctly, but users need a manual to find basic features. \nWhich listed definition of quality is the app missing?",
+    "options": {
+      "A": "Eliminating waste",
+      "B": "Speed of delivery",
+      "C": "Providing good, usable products",
+      "D": "Compliance with policies and procedures"
+    },
+    "answer": "C",
+    "explanation": "An app that works but is hard to use is not a good, usable product."
+  },
+  {
+    "id": 43,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q8",
+    "question": "Which emphasis does the course place on software quality?",
+    "options": {
+      "A": "Visual design of user screens",
+      "B": "Quantitative assessment of software quality and quality control using software testing \ntechniques",
+      "C": "Hardware maintenance schedules",
+      "D": "Legal contracts with vendors"
+    },
+    "answer": "B",
+    "explanation": "The course places particular emphasis on quantitative assessment of software quality and \non quality control using software testing techniques."
+  },
+  {
+    "id": 44,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q9",
+    "question": "A company fixes reported bugs, answers support questions and follows up with customers \nafter each release. Which definition of quality does this best match?",
+    "options": {
+      "A": "Perfection",
+      "B": "Eliminating waste",
+      "C": "Total customer service and satisfaction",
+      "D": "Compliance with policies and procedures"
+    },
+    "answer": "C",
+    "explanation": "Support, follow-up and bug fixing after release serve the customer's overall experience, \nwhich is total customer service and satisfaction."
+  },
+  {
+    "id": 45,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q10",
+    "question": "Which option correctly matches each quality type with an example?",
+    "options": {
+      "A": "Functional: the page loads in 1 second; Non-functional: the invoice total is correct; Latent: it \nstill works after growth",
+      "B": "Functional: the invoice total is correct; Non-functional: the page loads in 1 second; Latent: it \nstill works well after the customer base doubles",
+      "C": "Functional: it still works after growth; Non-functional: the invoice total is correct; Latent: the \npage loads in 1 second",
+      "D": "Functional: the page loads fast; Non-functional: it still works after growth; Latent: the invoice \ntotal is correct"
+    },
+    "answer": "B",
+    "explanation": "Functional quality is what the software does, non-functional quality is how well it does it, \nand latent quality is how well it will keep doing it in the future."
+  },
+  {
+    "id": 46,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q11",
+    "question": "Which grading component carries the highest weight in the course?",
+    "options": {
+      "A": "Mid Terms",
+      "B": "Quiz",
+      "C": "Final Term",
+      "D": "Presentation"
+    },
+    "answer": "C",
+    "explanation": "Final Term carries 50%, the largest share of the grading."
+  },
+  {
+    "id": 47,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q12",
+    "question": "Software quality assurance consists of a means of:",
+    "options": {
+      "A": "Monitoring the software engineering processes and methods used to ensure quality",
+      "B": "Writing code faster",
+      "C": "Hiring more developers",
+      "D": "Marketing the product"
+    },
+    "answer": "A",
+    "explanation": "The Quality Engineering slide describes Software Quality Assurance as monitoring the \nprocesses and methods used to ensure quality."
+  },
+  {
+    "id": 48,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q13",
+    "question": "A manager checks whether the team follows its agreed development methods instead of \nonly looking at the finished software. Which activity is this?",
+    "options": {
+      "A": "Latent quality measurement",
+      "B": "Software quality assurance",
+      "C": "Performance tuning",
+      "D": "Requirement gathering"
+    },
+    "answer": "B",
+    "explanation": "Software quality assurance monitors the processes and methods used, not just the final \nproduct."
+  },
+  {
+    "id": 49,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q14",
+    "question": "A customer opens an app and is pleasantly surprised by how much it does beyond what \nwas asked. Which definition of quality does this match?",
+    "options": {
+      "A": "Compliance with policies and procedures",
+      "B": "Consistency",
+      "C": "Eliminating waste",
+      "D": "Delighting or pleasing customers"
+    },
+    "answer": "D",
+    "explanation": "Exceeding what the customer expected is delighting or pleasing the customer."
+  },
+  {
+    "id": 50,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q15",
+    "question": "Which of the following is NOT listed under \"Defining Quality\"?",
+    "options": {
+      "A": "Perfection",
+      "B": "Maximizing profit margins",
+      "C": "Consistency",
+      "D": "Eliminating waste"
+    },
+    "answer": "B",
+    "explanation": "The slide lists perfection, consistency, eliminating waste and similar items; maximizing \nprofit is not among them."
+  },
+  {
+    "id": 51,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q16",
+    "question": "Which of the following is a non-functional requirement?",
+    "options": {
+      "A": "The login button must authenticate valid users",
+      "B": "The search page must return results within 2 seconds",
+      "C": "The system must email a receipt after purchase",
+      "D": "Users must be able to reset their passwords"
+    },
+    "answer": "B",
+    "explanation": "Non-functional quality is about how well the software does something; a response-time \nlimit is a non-functional requirement, while the other options describe what the software does."
+  },
+  {
+    "id": 52,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q17",
+    "question": "An auditor checks that every release followed the company's documented rules before \napproving it. Which definition of quality does this reflect?",
+    "options": {
+      "A": "Delighting or pleasing customers",
+      "B": "Compliance with policies and procedures",
+      "C": "Eliminating waste",
+      "D": "Perfection"
+    },
+    "answer": "B",
+    "explanation": "Checking releases against the organization's documented rules is compliance with policies \nand procedures."
+  },
+  {
+    "id": 53,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q18",
+    "question": "What is the combined weight of the Quiz, Assignment and Presentation?",
+    "options": {
+      "A": "10%",
+      "B": "15%",
+      "C": "20%",
+      "D": "25%"
+    },
+    "answer": "C",
+    "explanation": "Quiz 5% + Assignment 5% + Presentation 10% = 20%."
+  },
+  {
+    "id": 54,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q19",
+    "question": "Users complain that a payroll system is slow and often unreliable. Which kind of quality \nrequirement is affected?",
+    "options": {
+      "A": "Developer quality requirements",
+      "B": "Process quality",
+      "C": "Latent quality",
+      "D": "Customer quality requirements"
+    },
+    "answer": "D",
+    "explanation": "Efficiency and reliability are the customer quality requirements, and slow, unreliable \nbehavior affects exactly those."
+  },
+  {
+    "id": 55,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q20",
+    "question": "A development team wants code that is easy to modify and can be reused in later projects. Which \nkind of quality requirement is this?",
+    "options": {
+      "A": "Developer quality requirements",
+      "B": "Customer quality requirements",
+      "C": "Functional quality",
+      "D": "Quality in use"
+    },
+    "answer": "A",
+    "explanation": "Maintainability and reusability are the developer quality requirements named in the \nlecture."
+  },
+  {
+    "id": 56,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q21",
+    "question": "A banking app behaves the same way on every run and on every release. Which \ndefinition of quality does this best match?",
+    "options": {
+      "A": "Perfection",
+      "B": "Speed of delivery",
+      "C": "Eliminating waste",
+      "D": "Consistency"
+    },
+    "answer": "D",
+    "explanation": "Behaving the same way every time and across releases is consistency."
+  },
+  {
+    "id": 57,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q22",
+    "question": "A banking app calculates interest correctly today, but there are signs it will not keep working well \nas its data grows. Which quality type is at risk?",
+    "options": {
+      "A": "Functional quality",
+      "B": "Latent quality",
+      "C": "Non-functional quality",
+      "D": "Product quality"
+    },
+    "answer": "B",
+    "explanation": "Latent quality measures how well the software will continue to do its job in the future."
+  },
+  {
+    "id": 58,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q23",
+    "question": "Which of the following is NOT one of the three quality types in Lecture 1?",
+    "options": {
+      "A": "Functional quality",
+      "B": "Non-functional quality",
+      "C": "Latent quality",
+      "D": "Process quality"
+    },
+    "answer": "D",
+    "explanation": "Lecture 1 presents functional, non-functional and latent quality; process quality is \nintroduced in Lecture 2."
+  },
+  {
+    "id": 59,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q24",
+    "question": "A shopping app has a working checkout, but checkout takes 40 seconds. Which quality type is \nweak?",
+    "options": {
+      "A": "Functional quality",
+      "B": "Latent quality",
+      "C": "Non-functional quality",
+      "D": "Process quality"
+    },
+    "answer": "C",
+    "explanation": "Non-functional quality compares how well the software does something with how well it \nshould; a correct but very slow checkout falls short here."
+  },
+  {
+    "id": 60,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q25",
+    "question": "A password reset feature is supposed to email a reset link but does nothing. Which quality type is \nlacking?",
+    "options": {
+      "A": "Functional quality",
+      "B": "Non-functional quality",
+      "C": "Latent quality",
+      "D": "Process quality"
+    },
+    "answer": "A",
+    "explanation": "Functional quality compares what the software does with what it is supposed to do; a reset \nfeature that does nothing fails that test."
+  },
+  {
+    "id": 61,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q26",
+    "question": "Lecture 1 names efficiency and reliability as customer quality requirements. Which pair \nof Module 01 quality characteristics do they correspond to?",
+    "options": {
+      "A": "Efficiency and reliability",
+      "B": "Maintainability and portability",
+      "C": "Portability and usability",
+      "D": "Functionality and portability"
+    },
+    "answer": "A",
+    "explanation": "Efficiency and reliability are two of the six top-level quality characteristics of the ISO 9126 \nframework from Module 01."
+  },
+  {
+    "id": 62,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q27",
+    "question": "A team removes defects during development so that no rework is needed after release. Which \ndefinition of quality does this match?",
+    "options": {
+      "A": "Perfection",
+      "B": "Doing it right the first time",
+      "C": "Speed of delivery",
+      "D": "Consistency"
+    },
+    "answer": "B",
+    "explanation": "Fixing defects early so that nothing has to be redone matches \"doing it right the first time\"."
+  },
+  {
+    "id": 63,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q28",
+    "question": "A photo app crashes when saving certain images, and it also takes a full minute to open. \nWhich two quality types are weak?",
+    "options": {
+      "A": "Latent and non-functional",
+      "B": "Functional and non-functional",
+      "C": "Functional and latent",
+      "D": "Non-functional only"
+    },
+    "answer": "B",
+    "explanation": "Crashing when saving means it does not do what it should (functional), and the slow start \nmeans it does not do it well enough (non-functional)."
+  },
+  {
+    "id": 64,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q29",
+    "question": "Which statement about quality types in Lecture 1 is TRUE?",
+    "options": {
+      "A": "Functional quality measures how fast the software runs",
+      "B": "Non-functional quality measures only whether features exist",
+      "C": "Latent quality measures what the software did in the past",
+      "D": "Functional quality compares what the software does with what it should do, while non-\nfunctional quality compares how well it does it with how well it should"
+    },
+    "answer": "D",
+    "explanation": "Functional quality is about what the software does, and non-functional quality is about \nhow well it does it."
+  },
+  {
+    "id": 65,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q30",
+    "question": "Which of the following is NOT a definition of quality listed in Lecture 1?",
+    "options": {
+      "A": "Lowest possible price for the customer",
+      "B": "Doing it right the first time",
+      "C": "Providing good, usable products",
+      "D": "Total customer service and satisfaction"
+    },
+    "answer": "A",
+    "explanation": "The Defining Quality slide does not list the lowest possible price; the other three options \nare on it."
+  },
+  {
+    "id": 66,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q31",
+    "question": "A customer wants the fastest possible response times, while the developers want to \nrestructure the code so it is easier to modify and reuse, which will delay delivery. Which Lecture 1 idea \ndoes this show?",
+    "options": {
+      "A": "Specifications are always complete",
+      "B": "A tension between customer quality requirements and developer quality requirements",
+      "C": "Latent quality",
+      "D": "Compliance with policies and procedures"
+    },
+    "answer": "B",
+    "explanation": "Speed is a customer requirement, while modifiability and reusability are developer \nrequirements, so the two compete."
+  },
+  {
+    "id": 67,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q32",
+    "question": "A requirement says \"the system should be fast.\" Which problem with quality requirements does \nthis show?",
+    "options": {
+      "A": "They are always too detailed",
+      "B": "They are the same for every stakeholder",
+      "C": "Some of them are difficult to specify in an unambiguous way",
+      "D": "They are never written down"
+    },
+    "answer": "C",
+    "explanation": "A word like \"fast\" is open to interpretation, which shows that some quality requirements \nare hard to specify unambiguously."
+  },
+  {
+    "id": 68,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q33",
+    "question": "\"Delighting or pleasing customers\" focuses on ___, while \"compliance with policies and \nprocedures\" focuses on ___.",
+    "options": {
+      "A": "Speed; waste",
+      "B": "Perfection; consistency",
+      "C": "The organization's own rules; the customer",
+      "D": "The customer; the organization's own rules"
+    },
+    "answer": "D",
+    "explanation": "Delighting or pleasing customers is customer-focused, while compliance with policies and \nprocedures is about following the organization's own rules."
+  },
+  {
+    "id": 69,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q34",
+    "question": "A team removes duplicated work and unnecessary steps from its process. Which definition of \nquality does this match?",
+    "options": {
+      "A": "Eliminating waste",
+      "B": "Perfection",
+      "C": "Total customer service and satisfaction",
+      "D": "Providing good, usable products"
+    },
+    "answer": "A",
+    "explanation": "Removing duplicated work and unnecessary steps is eliminating waste."
+  },
+  {
+    "id": 70,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 2: Software Quality Engineering Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q35",
+    "question": "A student scores full marks in the Mid Terms and the Final Term but zero in everything \nelse. What percentage of the course grade did the student earn?",
+    "options": {
+      "A": "70%",
+      "B": "75%",
+      "C": "80%",
+      "D": "85%"
+    },
+    "answer": "C",
+    "explanation": "Mid Terms 30% + Final Term 50% = 80%."
+  },
+  {
+    "id": 71,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q1",
+    "question": "Which quality type expresses the degree to which defined processes were followed and completed?",
+    "options": {
+      "A": "Product quality",
+      "B": "Process quality",
+      "C": "Quality in use",
+      "D": "Value-based quality"
+    },
+    "answer": "B",
+    "explanation": "Process quality is the degree to which the defined software processes were followed and \ncompleted."
+  },
+  {
+    "id": 72,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q2",
+    "question": "Product quality is determined by:",
+    "options": {
+      "A": "The number of team members",
+      "B": "The cost of development",
+      "C": "The speed of delivery",
+      "D": "The degree to which the developed software meets the defined requirements"
+    },
+    "answer": "D",
+    "explanation": "Software products are the output of processes, and their quality depends on how well they \nmeet the defined requirements."
+  },
+  {
+    "id": 73,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q3",
+    "question": "Which quality type addresses the degree to which a product is fit for purpose when exposed to a \nparticular context of use?",
+    "options": {
+      "A": "Quality in use",
+      "B": "Process quality",
+      "C": "Product quality",
+      "D": "Transcendental quality"
+    },
+    "answer": "A",
+    "explanation": "Quality in use is about fitness for purpose in a particular context of use."
+  },
+  {
+    "id": 74,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q4",
+    "question": "Software processes implement which of the following in an organizational context?",
+    "options": {
+      "A": "Marketing strategies",
+      "B": "Hardware standards",
+      "C": "Best practices of software engineering",
+      "D": "Legal contracts"
+    },
+    "answer": "C",
+    "explanation": "The lecture says software processes implement best practices of software engineering in an \norganizational context."
+  },
+  {
+    "id": 75,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q5",
+    "question": "Software products are the output of:",
+    "options": {
+      "A": "Software processes",
+      "B": "Marketing plans",
+      "C": "Customer surveys",
+      "D": "Hardware design"
+    },
+    "answer": "A",
+    "explanation": "This is why process quality and product quality are linked: products are the output of \nsoftware processes."
+  },
+  {
+    "id": 76,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q6",
+    "question": "How many different views of quality are listed in the lecture?",
+    "options": {
+      "A": "Four",
+      "B": "Five",
+      "C": "Six",
+      "D": "Three"
+    },
+    "answer": "B",
+    "explanation": "The views are transcendental, user, manufacturing, product and value-based."
+  },
+  {
+    "id": 77,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q7",
+    "question": "Which of the following is NOT one of the different views of quality?",
+    "options": {
+      "A": "Transcendental view",
+      "B": "User view",
+      "C": "Manufacturing view",
+      "D": "Testing view"
+    },
+    "answer": "D",
+    "explanation": "There is no testing view in the lecture's list."
+  },
+  {
+    "id": 78,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q8",
+    "question": "Which of the following is a view of quality listed in the lecture?",
+    "options": {
+      "A": "Manufacturing view",
+      "B": "Deployment view",
+      "C": "Maintenance view",
+      "D": "Security view"
+    },
+    "answer": "A",
+    "explanation": "Manufacturing view is one of the five listed views."
+  },
+  {
+    "id": 79,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q9",
+    "question": "Which set correctly lists the views of quality?",
+    "options": {
+      "A": "Transcendental, Process, Manufacturing, Product, Value-based",
+      "B": "User, Developer, Manager, Product, Value-based",
+      "C": "Transcendental, User, Manufacturing, Product, Value-based",
+      "D": "Transcendental, User, Testing, Product, Cost-based"
+    },
+    "answer": "C",
+    "explanation": "The lecture lists transcendental, user, manufacturing, product and value-based views."
+  },
+  {
+    "id": 80,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q10",
+    "question": "Which of the following is NOT a standard quality model in the lecture?",
+    "options": {
+      "A": "McCall",
+      "B": "International Organization for Standardization/International Electrotechnical Commission \n9126",
+      "C": "Institute of Electrical and Electronics Engineers",
+      "D": "Goal-Question-Metric Approach"
+    },
+    "answer": "D",
+    "explanation": "The Goal-Question-Metric Approach is listed under application or company-specific \nmodels."
+  },
+  {
+    "id": 81,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q11",
+    "question": "Which of the following is a standard quality model?",
+    "options": {
+      "A": "McCall",
+      "B": "Functionality, Usability, Reliability, Performance, Supportability",
+      "C": "Goal-Question-Metric Approach",
+      "D": "None of these"
+    },
+    "answer": "A",
+    "explanation": "McCall is a standard model, along with International Organization for \nStandardization/International Electrotechnical Commission 9126 and the Institute of Electrical and \nElectronics Engineers."
+  },
+  {
+    "id": 82,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q12",
+    "question": "Functionality, Usability, Reliability, Performance, Supportability is an example of:",
+    "options": {
+      "A": "A standard quality model",
+      "B": "A cost of quality category",
+      "C": "An application or company-specific quality model",
+      "D": "A type of defect"
+    },
+    "answer": "C",
+    "explanation": "Functionality, Usability, Reliability, Performance, Supportability and the Goal-Question-\nMetric approach are listed as application or company-specific quality models."
+  },
+  {
+    "id": 83,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q13",
+    "question": "The Goal-Question-Metric Approach is classified as:",
+    "options": {
+      "A": "A standard quality model",
+      "B": "An application or company-specific quality model",
+      "C": "A view of quality",
+      "D": "A cost of quality category"
+    },
+    "answer": "B",
+    "explanation": "The lecture places Goal-Question-Metric next to Functionality, Usability, Reliability, \nPerformance, Supportability under application or company-specific models."
+  },
+  {
+    "id": 84,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q14",
+    "question": "Which set lists the standard quality models?",
+    "options": {
+      "A": "Goal-Question-Metric, McCall, Functionality-Usability-Reliability-Performance-Supportability",
+      "B": "McCall, Functionality-Usability-Reliability-Performance-Supportability, Institute of Electrical \nand Electronics Engineers",
+      "C": "International Organization for Standardization/International Electrotechnical Commission \n9126, Goal-Question-Metric, Functionality-Usability-Reliability-Performance-Supportability",
+      "D": "McCall, International Organization for Standardization/International Electrotechnical \nCommission 9126, Institute of Electrical and Electronics Engineers"
+    },
+    "answer": "D",
+    "explanation": "The standard quality models are McCall, International Organization for \nStandardization/International Electrotechnical Commission 9126 and the Institute of Electrical and \nElectronics Engineers."
+  },
+  {
+    "id": 85,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q15",
+    "question": "Which are the categories of Cost of Quality in the lecture?",
+    "options": {
+      "A": "Prevention cost, appraisal cost and failure cost",
+      "B": "Design cost, coding cost and testing cost",
+      "C": "Hardware cost, software cost and people cost",
+      "D": "Fixed cost, variable cost and legal cost"
+    },
+    "answer": "A",
+    "explanation": "Cost of quality is split into prevention, appraisal and failure costs."
+  },
+  {
+    "id": 86,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q16",
+    "question": "Failure cost is further divided into:",
+    "options": {
+      "A": "Direct and indirect failure cost",
+      "B": "Fixed and variable failure cost",
+      "C": "Internal and external failure cost",
+      "D": "Early and late failure cost"
+    },
+    "answer": "C",
+    "explanation": "The lecture shows internal failure cost and external failure cost under failure cost."
+  },
+  {
+    "id": 87,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q17",
+    "question": "Which of the following is NOT a cost of quality category listed?",
+    "options": {
+      "A": "Prevention cost",
+      "B": "Marketing cost",
+      "C": "Appraisal cost",
+      "D": "Failure cost"
+    },
+    "answer": "B",
+    "explanation": "Only prevention, appraisal and failure costs are listed."
+  },
+  {
+    "id": 88,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q18",
+    "question": "Which cost of quality category has internal and external sub-types?",
+    "options": {
+      "A": "Prevention cost",
+      "B": "Appraisal cost",
+      "C": "Training cost",
+      "D": "Failure cost"
+    },
+    "answer": "D",
+    "explanation": "Failure cost is divided into internal and external failure cost."
+  },
+  {
+    "id": 89,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q19",
+    "question": "Quality Assurance deals with:",
+    "options": {
+      "A": "Pre- and post-release defects",
+      "B": "Only hardware defects",
+      "C": "Only documentation",
+      "D": "Only user training"
+    },
+    "answer": "A",
+    "explanation": "Quality Assurance deals with defects found before release and after release."
+  },
+  {
+    "id": 90,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q20",
+    "question": "The classification scheme for Quality Assurance has which three parts?",
+    "options": {
+      "A": "Defect planning, design and coding",
+      "B": "Defect logging, fixing and closing",
+      "C": "Defect prevention, defect reduction (detection) and defect containment",
+      "D": "Defect cost, time and risk"
+    },
+    "answer": "C",
+    "explanation": "The scheme is defect prevention, defect reduction (also called defect detection) and defect \ncontainment."
+  },
+  {
+    "id": 91,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q21",
+    "question": "Software quality assurance is described as all planned and systematic activities implemented \nwithin the:",
+    "options": {
+      "A": "Marketing plan",
+      "B": "Quality system",
+      "C": "Project budget",
+      "D": "Hardware platform"
+    },
+    "answer": "B",
+    "explanation": "The definition refers to planned and systematic activities implemented within a quality \nsystem."
+  },
+  {
+    "id": 92,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q22",
+    "question": "According to the Software Quality Assurance definition, the activities are meant to provide:",
+    "options": {
+      "A": "A guarantee of zero defects",
+      "B": "Faster delivery",
+      "C": "Lower development cost",
+      "D": "Adequate confidence that an entity will fulfill requirements for quality"
+    },
+    "answer": "D",
+    "explanation": "The aim is adequate confidence that the entity will fulfill quality requirements, not a \nguarantee of zero defects."
+  },
+  {
+    "id": 93,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q23",
+    "question": "Which of the following is part of defect prevention?",
+    "options": {
+      "A": "Education and training",
+      "B": "Static testing",
+      "C": "Fault tolerance",
+      "D": "Dynamic testing"
+    },
+    "answer": "A",
+    "explanation": "Defect prevention includes education and training, process conformance and standards \nenforcement, and tools, technologies and techniques."
+  },
+  {
+    "id": 94,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q24",
+    "question": "Which of the following is NOT a defect prevention activity?",
+    "options": {
+      "A": "Process conformance and standards enforcement",
+      "B": "Tools, technologies and techniques",
+      "C": "Dynamic testing",
+      "D": "Education and training"
+    },
+    "answer": "C",
+    "explanation": "Dynamic testing belongs to defect reduction."
+  },
+  {
+    "id": 95,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q25",
+    "question": "Defect reduction includes which activities?",
+    "options": {
+      "A": "Fault tolerance and fault containment",
+      "B": "Static testing and dynamic testing",
+      "C": "Education and training",
+      "D": "Standards enforcement"
+    },
+    "answer": "B",
+    "explanation": "Defect reduction (detection and removal) consists of static and dynamic testing."
+  },
+  {
+    "id": 96,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q26",
+    "question": "Defect reduction is also referred to as:",
+    "options": {
+      "A": "Defect planning",
+      "B": "Defect logging",
+      "C": "Defect cost analysis",
+      "D": "Defect detection and removal"
+    },
+    "answer": "D",
+    "explanation": "The slide labels it defect reduction (defect detection and removal)."
+  },
+  {
+    "id": 97,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q27",
+    "question": "Defect containment includes:",
+    "options": {
+      "A": "Software fault tolerance and fault containment",
+      "B": "Static and dynamic testing",
+      "C": "Education and training",
+      "D": "Tools and techniques"
+    },
+    "answer": "A",
+    "explanation": "Software fault tolerance and fault containment make up defect containment."
+  },
+  {
+    "id": 98,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q28",
+    "question": "Process conformance and standards enforcement falls under:",
+    "options": {
+      "A": "Defect reduction",
+      "B": "Defect containment",
+      "C": "Defect prevention",
+      "D": "Software review"
+    },
+    "answer": "C",
+    "explanation": "It is one of the three defect prevention activities."
+  },
+  {
+    "id": 99,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q29",
+    "question": "Software fault tolerance belongs to:",
+    "options": {
+      "A": "Defect prevention",
+      "B": "Defect containment",
+      "C": "Defect reduction",
+      "D": "Cost of quality"
+    },
+    "answer": "B",
+    "explanation": "Fault tolerance is listed under defect containment."
+  },
+  {
+    "id": 100,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q30",
+    "question": "Which items are listed under Software Review in the Software Quality Assurance topics?",
+    "options": {
+      "A": "Formal Technical Reviews and Review Guidelines",
+      "B": "Software Quality Assurance Team and Software Quality Assurance Plan",
+      "C": "Static and dynamic testing",
+      "D": "Fault tolerance and fault containment"
+    },
+    "answer": "A",
+    "explanation": "Software Review covers Formal Technical Reviews and Review Guidelines."
+  },
+  {
+    "id": 101,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q31",
+    "question": "Which set lists the Software Quality Assurance team roles from the lecture?",
+    "options": {
+      "A": "Developer, Designer, Tester, Manager, Client",
+      "B": "Testing Manager, Test Team Lead, Test Analyst, Tester, Independent Test Observer",
+      "C": "Analyst, Architect, Tester, Auditor, Sponsor",
+      "D": "Test Lead, Developer, Observer, Planner, Coder"
+    },
+    "answer": "B",
+    "explanation": "These five roles are given on the Software Quality Assurance Team slide."
+  },
+  {
+    "id": 102,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q32",
+    "question": "Which of the following is NOT a member of the Software Quality Assurance team in the lecture?",
+    "options": {
+      "A": "Testing Manager",
+      "B": "Test Analyst",
+      "C": "Project Sponsor",
+      "D": "Independent Test Observer"
+    },
+    "answer": "C",
+    "explanation": "Project Sponsor is not in the Software Quality Assurance team list."
+  },
+  {
+    "id": 103,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q33",
+    "question": "Independent Test Observer is listed as:",
+    "options": {
+      "A": "A type of defect",
+      "B": "A cost category",
+      "C": "A quality model",
+      "D": "A member of the Software Quality Assurance team"
+    },
+    "answer": "D",
+    "explanation": "It is the last role on the Software Quality Assurance Team slide."
+  },
+  {
+    "id": 104,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q34",
+    "question": "The Software Quality Assurance plan is:",
+    "options": {
+      "A": "A coding standard document",
+      "B": "An outline of quality measures to ensure quality levels within a software development effort",
+      "C": "A marketing strategy",
+      "D": "A list of customer complaints"
+    },
+    "answer": "B",
+    "explanation": "The plan outlines the quality measures used to ensure quality levels during development."
+  },
+  {
+    "id": 105,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 3: Software Quality Engineering Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q35",
+    "question": "What does the Software Quality Assurance plan allow, and what happens if quality levels fall \noutside the plan?",
+    "options": {
+      "A": "Actual quality levels are compared with planned levels; management responds as \ndocumented in the plan",
+      "B": "Testing is skipped",
+      "C": "The project is cancelled",
+      "D": "The client pays extra"
+    },
+    "answer": "A",
+    "explanation": "The plan compares actual and planned quality levels, and management responds as \ndocumented when they differ."
+  },
+  {
+    "id": 106,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q1",
+    "question": "According to the module, the definition of software quality:",
+    "options": {
+      "A": "Is identical for all stakeholders",
+      "B": "Is fixed by the International Organization for Standardization only",
+      "C": "May differ among developers, users, clients, managers and software quality engineers",
+      "D": "Is defined only by testers"
+    },
+    "answer": "C",
+    "explanation": "Quality is perceived and defined differently by developers, users, clients, managers and \nquality engineers."
+  },
+  {
+    "id": 107,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q2",
+    "question": "The definition of quality becomes even more complicated when quality depends upon:",
+    "options": {
+      "A": "The circumstances or environment in which the software is used",
+      "B": "The number of developers",
+      "C": "The size of the code",
+      "D": "The programming language"
+    },
+    "answer": "A",
+    "explanation": "The definition becomes harder when quality depends on the circumstances or environment \nin which the software is used."
+  },
+  {
+    "id": 108,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q3",
+    "question": "What does the literature reveal about software?",
+    "options": {
+      "A": "It has the lowest failure rate of all products",
+      "B": "It has the highest failure rate in the history of all products",
+      "C": "It fails at the same rate as hardware",
+      "D": "It never fails"
+    },
+    "answer": "B",
+    "explanation": "The module says software has the highest failure rate in the history of all products, causing \nlosses of millions of dollars."
+  },
+  {
+    "id": 109,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q4",
+    "question": "In the economics of Software Quality Engineering, everything in the process of software \ndevelopment ends up in:",
+    "options": {
+      "A": "Code size",
+      "B": "Documentation",
+      "C": "Completion of testing",
+      "D": "The user's satisfaction"
+    },
+    "answer": "D",
+    "explanation": "Everything in software development ends up in the user's satisfaction."
+  },
+  {
+    "id": 110,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q5",
+    "question": "The satisfaction of the user depends on:",
+    "options": {
+      "A": "The number of developers",
+      "B": "The project duration",
+      "C": "The overall behavior of the system",
+      "D": "The programming language used"
+    },
+    "answer": "C",
+    "explanation": "User satisfaction depends on the overall behavior of the system, with the software product \ncoming first."
+  },
+  {
+    "id": 111,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q6",
+    "question": "The behavior of a software product is defined and comprehended through:",
+    "options": {
+      "A": "Hardware and network",
+      "B": "Features and quality",
+      "C": "Cost and schedule",
+      "D": "Documents and manuals"
+    },
+    "answer": "B",
+    "explanation": "The behavior of a software product is defined and understood through its features and \nquality."
+  },
+  {
+    "id": 112,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q7",
+    "question": "Features and quality of a software product are defined or determined through:",
+    "options": {
+      "A": "Requirements",
+      "B": "Test cases",
+      "C": "User manuals",
+      "D": "Marketing plans"
+    },
+    "answer": "A",
+    "explanation": "Features and quality are determined through the requirements."
+  },
+  {
+    "id": 113,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q8",
+    "question": "Any behavior-related requirement can only be actualized through:",
+    "options": {
+      "A": "Documentation",
+      "B": "Meetings",
+      "C": "Test plans",
+      "D": "Code that executes the behavior"
+    },
+    "answer": "D",
+    "explanation": "Any behavior-related requirement can only be actualized through code that executes the \nbehavior."
+  },
+  {
+    "id": 114,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q9",
+    "question": "Which software quality has tangible economic value?",
+    "options": {
+      "A": "Any level of quality",
+      "B": "Only perfect quality",
+      "C": "Only better-than-average quality",
+      "D": "Only below-average quality"
+    },
+    "answer": "C",
+    "explanation": "Only better-than-average software quality has tangible economic value; low quality brings \nserious economic consequences."
+  },
+  {
+    "id": 115,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q10",
+    "question": "In the Function-Quality-Cost discussion, functionality and quality are described as:",
+    "options": {
+      "A": "Best friends",
+      "B": "Natural enemies",
+      "C": "Identical goals",
+      "D": "Independent of each other"
+    },
+    "answer": "B",
+    "explanation": "Functionality and quality compete for the same fixed budget, so they are called natural \nenemies."
+  },
+  {
+    "id": 116,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q11",
+    "question": "Projects with open budgets are:",
+    "options": {
+      "A": "Very rare, so the budget is usually fixed",
+      "B": "The most common type",
+      "C": "Always successful",
+      "D": "Used only for testing"
+    },
+    "answer": "A",
+    "explanation": "Open budgets are very rare, so budgets are usually fixed and functionality and quality \ncompete for a share."
+  },
+  {
+    "id": 117,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q12",
+    "question": "What happens if features are increased in a closed-budget project?",
+    "options": {
+      "A": "Quality increases",
+      "B": "The budget increases automatically",
+      "C": "Nothing changes",
+      "D": "The budget share for quality decreases"
+    },
+    "answer": "D",
+    "explanation": "More features in a closed budget leave a smaller share of the budget for quality, so quality \ndecreases."
+  },
+  {
+    "id": 118,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q13",
+    "question": "In the example, the total budget is Pakistani Rupees 100,000 for 4 features. What is the cost per \nfeature?",
+    "options": {
+      "A": "Pakistani Rupees 20,000",
+      "B": "Pakistani Rupees 80,000",
+      "C": "Pakistani Rupees 25,000",
+      "D": "Pakistani Rupees 100,000"
+    },
+    "answer": "C",
+    "explanation": "100,000 ÷ 4 features = Pakistani Rupees 25,000 per feature."
+  },
+  {
+    "id": 119,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q14",
+    "question": "How is risk defined in the risk analysis approach?",
+    "options": {
+      "A": "By its cost and its duration",
+      "B": "By its probability and its impact (potential loss)",
+      "C": "By its source and its location",
+      "D": "By its priority and its owner"
+    },
+    "answer": "B",
+    "explanation": "The module defines risk by its probability and its impact or potential loss; Risk Exposure is \nthe product of the two."
+  },
+  {
+    "id": 120,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q15",
+    "question": "According to the impact analysis approach, what can people face in the worst case?",
+    "options": {
+      "A": "Physical injuries, up to the extent of death",
+      "B": "A slight increase in subscription fees",
+      "C": "A change of software vendor only",
+      "D": "No effect, because the impact is limited to the supplier"
+    },
+    "answer": "A",
+    "explanation": "In the worst case, people are exposed to physical injuries to the extent of death; customers \nmay also face a stop in business operations because of a bug."
+  },
+  {
+    "id": 121,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q16",
+    "question": "Why does quality often suffer in practice, according to the module?",
+    "options": {
+      "A": "Testers are not available",
+      "B": "Customers refuse Quality Assurance",
+      "C": "Tools are too costly",
+      "D": "Companies are under pressure to deliver more features, ignoring Quality Assurance and its \nlong-term damage"
+    },
+    "answer": "D",
+    "explanation": "Companies are pressed to deliver more features and ignore Quality Assurance, causing \nlong-term damage."
+  },
+  {
+    "id": 122,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q17",
+    "question": "Putting more money into software quality results in:",
+    "options": {
+      "A": "A higher number of defects",
+      "B": "Longer development only",
+      "C": "A lower probability of product failure",
+      "D": "No change in risk"
+    },
+    "answer": "C",
+    "explanation": "More money for quality means a lower probability of product failure and more immunity to \nthreats."
+  },
+  {
+    "id": 123,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q18",
+    "question": "A product has an excellent User Interface but no database firewall. What does the module \nconclude?",
+    "options": {
+      "A": "User Interface improvements are more important",
+      "B": "Adding a firewall to secure the database is more important than cosmetic User Interface \nchanges",
+      "C": "Neither matters",
+      "D": "Both have equal importance"
+    },
+    "answer": "B",
+    "explanation": "Securing the database with a firewall matters more than cosmetic User Interface changes."
+  },
+  {
+    "id": 124,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q19",
+    "question": "Which statement about the Yahoo breach is correct?",
+    "options": {
+      "A": "It was reported in 2014 and occurred in 2016",
+      "B": "It affected fewer than one million accounts",
+      "C": "It was reported in 2016 but occurred in late 2014, affecting at least half a billion accounts",
+      "D": "It had no financial effect"
+    },
+    "answer": "C",
+    "explanation": "The breach was reported in 2016 but occurred in late 2014, exposing information of at \nleast half a billion accounts."
+  },
+  {
+    "id": 125,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q20",
+    "question": "After the breach, Verizon and Yahoo revised the sale price to:",
+    "options": {
+      "A": "$4.8 billion",
+      "B": "$4.15 billion",
+      "C": "$4.48 billion",
+      "D": "$5.15 billion"
+    },
+    "answer": "C",
+    "explanation": "The module gives the revised offer as $4.48 billion, lower than the original $4.8 \nbillion price."
+  },
+  {
+    "id": 126,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q21",
+    "question": "According to Eppler and Helfert, the costs of missing quality are classified as:",
+    "options": {
+      "A": "Fixed and variable",
+      "B": "Internal and external",
+      "C": "Short-term and long-term",
+      "D": "Direct and indirect"
+    },
+    "answer": "D",
+    "explanation": "Eppler and Helfert classify the costs of missing quality as direct and indirect."
+  },
+  {
+    "id": 127,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q22",
+    "question": "Direct costs of missing quality are:",
+    "options": {
+      "A": "Tangible, visible and measurable",
+      "B": "Invisible and hard to calculate",
+      "C": "Always long-term",
+      "D": "Limited to reputation loss"
+    },
+    "answer": "A",
+    "explanation": "Direct costs are tangible, visible and measurable, and occur immediately after the event."
+  },
+  {
+    "id": 128,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q23",
+    "question": "Which of the following are examples of direct cost?",
+    "options": {
+      "A": "Loss of reputation and market share",
+      "B": "Financial loss and physical injury",
+      "C": "Loss of shareholder trust",
+      "D": "Loss of investment"
+    },
+    "answer": "B",
+    "explanation": "Financial loss and physical injury are the module's examples of direct cost."
+  },
+  {
+    "id": 129,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q24",
+    "question": "Indirect costs of missing quality are:",
+    "options": {
+      "A": "Easily observable and immediate",
+      "B": "Always small",
+      "C": "Invisible, difficult to calculate, and may appear long after the incident",
+      "D": "Limited to physical injury"
+    },
+    "answer": "C",
+    "explanation": "Indirect costs are invisible, hard to calculate and can show up long after the incident."
+  },
+  {
+    "id": 130,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q25",
+    "question": "Which of the following are examples of indirect cost?",
+    "options": {
+      "A": "Immediate financial loss",
+      "B": "Physical injury",
+      "C": "Cost of hardware",
+      "D": "Loss of market share, reputation and shareholders' trust"
+    },
+    "answer": "D",
+    "explanation": "Loss of market share, reputation, shareholders' trust and investment are indirect costs."
+  },
+  {
+    "id": 131,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q26",
+    "question": "The Nokia Chief Executive Officer's farewell remark (May 2016) is used as an example of:",
+    "options": {
+      "A": "Direct cost",
+      "B": "Indirect cost of missing quality",
+      "C": "Risk exposure",
+      "D": "Defect prevention"
+    },
+    "answer": "B",
+    "explanation": "The Nokia remark is the module's example of indirect cost, such as loss of market position."
+  },
+  {
+    "id": 132,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q27",
+    "question": "The impact analysis approach is based on which sequence?",
+    "options": {
+      "A": "Fix it → Identify problem → Root-cause analysis → Keep going",
+      "B": "Identify problem → Keep going → Fix it → Root-cause analysis",
+      "C": "Root-cause analysis → Identify problem → Fix it → Keep going",
+      "D": "Keep going → Fix it → Identify problem → Root-cause analysis"
+    },
+    "answer": "C",
+    "explanation": "The sequence is root-cause analysis, identify the problem, fix it, keep going."
+  },
+  {
+    "id": 133,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q28",
+    "question": "In the Yahoo case, what did Yahoo (the supplier) face?",
+    "options": {
+      "A": "Loss of trust, financial loss, lawsuits and the cost of investigating the root cause",
+      "B": "Only loss of privacy",
+      "C": "No consequences",
+      "D": "Only a software upgrade"
+    },
+    "answer": "A",
+    "explanation": "Yahoo faced loss of trust, financial loss, lawsuits and the cost of investigating the root \ncause."
+  },
+  {
+    "id": 134,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q29",
+    "question": "Why is the risk analysis approach preferred for evaluating the cost of missing quality?",
+    "options": {
+      "A": "It removes all risks",
+      "B": "The time and place of missing-quality events are difficult to determine",
+      "C": "It needs no data",
+      "D": "It replaces testing"
+    },
+    "answer": "B",
+    "explanation": "Since the time and place of missing-quality events are hard to predict, risk analysis gives a \nbetter cost evaluation."
+  },
+  {
+    "id": 135,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q30",
+    "question": "Risk Exposure is calculated as:",
+    "options": {
+      "A": "Probability + Loss",
+      "B": "Probability ÷ Loss",
+      "C": "Loss − Probability",
+      "D": "Probability × Loss"
+    },
+    "answer": "D",
+    "explanation": "Risk Exposure is the product of the risk probability and the potential loss: Risk Exposure = \nProbability × Loss."
+  },
+  {
+    "id": 136,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q31",
+    "question": "If the risk probability is 0.2 and the potential loss is Pakistani Rupees 500,000, the Risk Exposure is:",
+    "options": {
+      "A": "Pakistani Rupees 250,000",
+      "B": "Pakistani Rupees 100,000",
+      "C": "Pakistani Rupees 700,000",
+      "D": "Pakistani Rupees 2,500,000"
+    },
+    "answer": "B",
+    "explanation": "Risk Exposure = Probability × Loss = 0.2 × 500,000 = Pakistani Rupees 100,000."
+  },
+  {
+    "id": 137,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q32",
+    "question": "Which Institute of Electrical and Electronics Engineers criticality level involves continuous usage (24 \nhours per day), irreversible environmental damage and loss of human lives?",
+    "options": {
+      "A": "Level B",
+      "B": "Level D",
+      "C": "Level A (Catastrophic)",
+      "D": "Level C"
+    },
+    "answer": "C",
+    "explanation": "Level A (Catastrophic) covers 24-hour continuous usage, irreversible environmental \ndamage, loss of human lives and disastrous impact."
+  },
+  {
+    "id": 138,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q33",
+    "question": "Which level involves serious threats to human lives, permanent injury or severe illness, and \nimportant economic or social impact?",
+    "options": {
+      "A": "Level B (Critical)",
+      "B": "Level A",
+      "C": "Level C",
+      "D": "Level D"
+    },
+    "answer": "A",
+    "explanation": "Level B (Critical) covers serious threats to human lives, permanent injury or severe illness, \nand important economic or social impact."
+  },
+  {
+    "id": 139,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q34",
+    "question": "Which level involves continuous usage with fixed interruption periods, property damage and minor \ninjury or illness?",
+    "options": {
+      "A": "Level A",
+      "B": "Level B",
+      "C": "Level D",
+      "D": "Level C (Marginal)"
+    },
+    "answer": "D",
+    "explanation": "Level C (Marginal) covers continuous usage with fixed interruption periods, property \ndamage and minor injury or illness."
+  },
+  {
+    "id": 140,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 4: Cost of Software Quality (Module 02)",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q35",
+    "question": "Which level involves time-to-time usage, low property damage and no risk to human lives?",
+    "options": {
+      "A": "Level C",
+      "B": "Level D (Negligible)",
+      "C": "Level B",
+      "D": "Level A"
+    },
+    "answer": "B",
+    "explanation": "Level D (Negligible) covers time-to-time usage, low property damage and no risk to human \nlives."
+  },
+  {
+    "id": 141,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q1",
+    "question": "Regardless of the product, its complexity or size, the purpose of Quality Assurance is to:",
+    "options": {
+      "A": "Add as many features as possible",
+      "B": "Reduce defects to a minimum to ensure minimum disruption",
+      "C": "Replace developers",
+      "D": "Eliminate the need for requirements"
+    },
+    "answer": "B",
+    "explanation": "Whatever the product's size or complexity, Quality Assurance aims to reduce defects to a \nminimum to ensure minimum disruption."
+  },
+  {
+    "id": 142,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q2",
+    "question": "According to the document, through standards and best practices, defects:",
+    "options": {
+      "A": "Can be removed completely",
+      "B": "Are always increased",
+      "C": "Do not matter",
+      "D": "Can be reduced to a minimum level but not totally removed"
+    },
+    "answer": "D",
+    "explanation": "Standards and best practices can reduce defects to a minimum, but a product with zero \nbugs is not possible."
+  },
+  {
+    "id": 143,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q3",
+    "question": "High-priority or sensitive areas of a product should be:",
+    "options": {
+      "A": "Defect-free",
+      "B": "Tested last",
+      "C": "Ignored",
+      "D": "Left to customers"
+    },
+    "answer": "A",
+    "explanation": "High-priority or sensitive areas of the product should be defect-free."
+  },
+  {
+    "id": 144,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q4",
+    "question": "The relationship between Quality Assurance and defects is:",
+    "options": {
+      "A": "Temporary",
+      "B": "Unrelated",
+      "C": "Tied to each other and can never vanish",
+      "D": "Limited to post-release only"
+    },
+    "answer": "C",
+    "explanation": "Quality Assurance and defects are always tied together and the relationship can never \nvanish."
+  },
+  {
+    "id": 145,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q5",
+    "question": "As a last resort, Quality Assurance ensures that:",
+    "options": {
+      "A": "All features are removed",
+      "B": "Critical functionality works and defects do not threaten or damage it",
+      "C": "The product is released without testing",
+      "D": "Only the User Interface works"
+    },
+    "answer": "B",
+    "explanation": "The last resort is that critical functionality must at least work and defects must not threaten \nor damage it."
+  },
+  {
+    "id": 146,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q6",
+    "question": "Which set lists the three categories of the Quality Assurance classification scheme?",
+    "options": {
+      "A": "Defect Planning, Design, Coding",
+      "B": "Defect Logging, Fixing, Closing",
+      "C": "Defect Cost, Time, Risk",
+      "D": "Defect Prevention, Defect Reduction (Detection), Defect Containment"
+    },
+    "answer": "D",
+    "explanation": "The three categories are defect prevention, defect reduction (also called defect detection) \nand defect containment."
+  },
+  {
+    "id": 147,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q7",
+    "question": "Defect Prevention (Error Source Removal) is the process of:",
+    "options": {
+      "A": "Addressing root causes of defects to prevent their future occurrence",
+      "B": "Executing the product to find bugs",
+      "C": "Writing release notes",
+      "D": "Hiding defects"
+    },
+    "answer": "A",
+    "explanation": "Defect prevention (error source removal) addresses root causes so defects do not occur \nagain."
+  },
+  {
+    "id": 148,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q8",
+    "question": "Defect Reduction (Detection) involves approaches such as:",
+    "options": {
+      "A": "Marketing and sales",
+      "B": "Hardware upgrades",
+      "C": "Quality Assurance, code reviews, code inspection and design review",
+      "D": "Contract signing"
+    },
+    "answer": "C",
+    "explanation": "Defect reduction (detection) works through Quality Assurance, code reviews, code \ninspection and design reviews, to find defects early."
+  },
+  {
+    "id": 149,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q9",
+    "question": "Defect Containment measures:",
+    "options": {
+      "A": "The cost of training",
+      "B": "The amount of defects Quality Assurance found as a portion of total defects, with the focus \non reducing escaping defects",
+      "C": "The number of developers",
+      "D": "The speed of coding"
+    },
+    "answer": "B",
+    "explanation": "Containment looks at the defects Quality Assurance found as a portion of the total, with \nthe focus on reducing escaping defects."
+  },
+  {
+    "id": 150,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q10",
+    "question": "Pre-release defects are also described as:",
+    "options": {
+      "A": "Fatal defects",
+      "B": "Cosmetic defects",
+      "C": "Regression defects",
+      "D": "Dormant defects"
+    },
+    "answer": "D",
+    "explanation": "Pre-release defects are called dormant defects because they can lie inactive until triggered."
+  },
+  {
+    "id": 151,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q11",
+    "question": "Why are pre-release defects dormant?",
+    "options": {
+      "A": "They are triggered only in a specific situation, or sit in a low-priority area with little Quality \nAssurance attention",
+      "B": "They are always fixed immediately",
+      "C": "They occur only in hardware",
+      "D": "They are detected by compilers"
+    },
+    "answer": "A",
+    "explanation": "They are triggered only in a specific situation or sit in a low-priority area with little Quality \nAssurance concentration."
+  },
+  {
+    "id": 152,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q12",
+    "question": "The cash register that failed when a customer paid using cash, credit card and a gift voucher \ntogether illustrates:",
+    "options": {
+      "A": "A post-release usability issue",
+      "B": "A syntax error",
+      "C": "A pre-release (dormant) defect triggered by an untested uncommon situation",
+      "D": "A hardware failure"
+    },
+    "answer": "C",
+    "explanation": "Paying with cash, card and voucher is uncommon and was not tested, so the dormant \ndefect surfaced and froze the system."
+  },
+  {
+    "id": 153,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q13",
+    "question": "Pre-release defects found at client sites are usually:",
+    "options": {
+      "A": "Ignored completely",
+      "B": "Mentioned as part of the release notes (and fixed depending on impact)",
+      "C": "Charged to the customer",
+      "D": "Deleted from records"
+    },
+    "answer": "B",
+    "explanation": "Depending on impact they must be fixed, but they are usually part of the release notes."
+  },
+  {
+    "id": 154,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q14",
+    "question": "Post-release defects are those that:",
+    "options": {
+      "A": "Appear in production or at the customer site",
+      "B": "Are found during unit testing",
+      "C": "Are found in design reviews",
+      "D": "Are found during requirement gathering"
+    },
+    "answer": "A",
+    "explanation": "Post-release defects are those that appear in production or at the customer site."
+  },
+  {
+    "id": 155,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q15",
+    "question": "Who pays to fix post-release defects?",
+    "options": {
+      "A": "The end user",
+      "B": "The customer",
+      "C": "A third party",
+      "D": "The software supplier company"
+    },
+    "answer": "D",
+    "explanation": "The software supplier company pays out of its own pocket to fix post-release defects."
+  },
+  {
+    "id": 156,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q16",
+    "question": "Why do post-release defects cost more to fix?",
+    "options": {
+      "A": "They are always more complex",
+      "B": "They need new requirements",
+      "C": "The product has multiple installations and the defect must be fixed at every place",
+      "D": "Testers charge more"
+    },
+    "answer": "C",
+    "explanation": "With multiple installations of the product, the fix has to be applied at every place."
+  },
+  {
+    "id": 157,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q17",
+    "question": "Besides financial loss, post-release defects negatively impact:",
+    "options": {
+      "A": "Only the source code",
+      "B": "Company image, trust, reputation and market position",
+      "C": "Only the database",
+      "D": "Nothing else"
+    },
+    "answer": "B",
+    "explanation": "Company image, trust, reputation and market position are all negatively affected."
+  },
+  {
+    "id": 158,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q18",
+    "question": "In the Comma-Separated Values export example, what went wrong at the production site?",
+    "options": {
+      "A": "Records went missing after about 500,000 records",
+      "B": "The Comma-Separated Values file could not be created",
+      "C": "The database crashed at login",
+      "D": "The Comma-Separated Values file had extra columns"
+    },
+    "answer": "A",
+    "explanation": "The Comma-Separated Values file was generated at production, but records went missing \nafter 500,000 records."
+  },
+  {
+    "id": 159,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q19",
+    "question": "How was the Comma-Separated Values problem resolved?",
+    "options": {
+      "A": "By removing the export feature",
+      "B": "By reducing the records to 30,000",
+      "C": "By changing the database",
+      "D": "By generating a separate Comma-Separated Values file after 500,000 records and merging \nthe files into a third file"
+    },
+    "answer": "D",
+    "explanation": "The fix was to create a separate Comma-Separated Values file after 500,000 records and \nmerge the two files into a third file."
+  },
+  {
+    "id": 160,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q20",
+    "question": "Why was the Comma-Separated Values defect missed during Quality Assurance?",
+    "options": {
+      "A": "Quality Assurance did not test the export at all",
+      "B": "The database was offline",
+      "C": "The export was tested with only 30,000 records because the Software Requirements \nSpecification mentioned no upper limit",
+      "D": "The developers refused testing"
+    },
+    "answer": "C",
+    "explanation": "Quality Assurance tested with 30,000 records because the Software Requirements \nSpecification mentioned no upper limit."
+  },
+  {
+    "id": 161,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q21",
+    "question": "Defect prevention helps to:",
+    "options": {
+      "A": "Increase defects",
+      "B": "Reduce the number of defects and the cost to fix them",
+      "C": "Remove all testing",
+      "D": "Avoid documentation"
+    },
+    "answer": "B",
+    "explanation": "Defect prevention reduces both the number of defects and the cost of fixing them, and digs \ninto their sources."
+  },
+  {
+    "id": 162,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q22",
+    "question": "What is the best way to prevent defects?",
+    "options": {
+      "A": "Detect them as early as possible, find the source and take corrective actions",
+      "B": "Wait for customers to report them",
+      "C": "Fix them after release",
+      "D": "Ignore low-priority areas"
+    },
+    "answer": "A",
+    "explanation": "Detect defects as early as possible, find the source and take corrective actions to avoid \nthem in future."
+  },
+  {
+    "id": 163,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q23",
+    "question": "Why is team education and training important for defect prevention?",
+    "options": {
+      "A": "It reduces salaries",
+      "B": "It replaces testing",
+      "C": "It removes the need for requirements",
+      "D": "Lack of skills or relevant training can lead to defects that could otherwise be prevented"
+    },
+    "answer": "D",
+    "explanation": "People are a critical factor; lack of skills or training can cause defects that could have been \nprevented."
+  },
+  {
+    "id": 164,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q24",
+    "question": "Software developers are generally considered:",
+    "options": {
+      "A": "Domain specialists",
+      "B": "Business owners",
+      "C": "Pure technical resources, so domain specialists are hired for some projects",
+      "D": "Auditors"
+    },
+    "answer": "C",
+    "explanation": "Developers are pure technical resources, so some projects hire domain specialists to work \nwith analysts and developers."
+  },
+  {
+    "id": 165,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q25",
+    "question": "Low domain-specific knowledge can lead to:",
+    "options": {
+      "A": "Faster delivery",
+      "B": "Ambiguity, confusion and demotivation among the team",
+      "C": "Fewer requirements",
+      "D": "Lower cost"
+    },
+    "answer": "B",
+    "explanation": "Domain terms vary between domains, so low domain knowledge leads to ambiguity, \nconfusion and demotivation."
+  },
+  {
+    "id": 166,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q26",
+    "question": "In the property tax example, a domain specialist is needed to:",
+    "options": {
+      "A": "Design the database",
+      "B": "Write the user manual",
+      "C": "Install the software",
+      "D": "Derive the appropriate rates and formula"
+    },
+    "answer": "D",
+    "explanation": "The property tax project needs a domain specialist to derive the appropriate rates and \nformula."
+  },
+  {
+    "id": 167,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q27",
+    "question": "Which is an example of lack of knowledge in Software Development Life Cycle phases that can \ncause defects?",
+    "options": {
+      "A": "Lack of knowledge of Requirement Management or Product Integration",
+      "B": "A slow internet connection",
+      "C": "A broken keyboard",
+      "D": "Office relocation"
+    },
+    "answer": "A",
+    "explanation": "Lack of knowledge of Requirement Management or Product Integration is a root cause of \ndefects."
+  },
+  {
+    "id": 168,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q28",
+    "question": "Regarding process knowledge, the document states that:",
+    "options": {
+      "A": "Creating a process and implementing it are the same",
+      "B": "Creating a process and on-boarding/implementing it are two different things",
+      "C": "Process knowledge is not required",
+      "D": "Only managers need process knowledge"
+    },
+    "answer": "B",
+    "explanation": "Creating a process and on-boarding or implementing it are different things, and success \ndepends on both."
+  },
+  {
+    "id": 169,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q29",
+    "question": "In the change request example, a Project Manager unaware of change management may:",
+    "options": {
+      "A": "Reject all client feedback",
+      "B": "Cancel the project",
+      "C": "Ask developers to write out-of-scope code, delaying in-scope features and causing defects in \nthem",
+      "D": "Reduce the team size"
+    },
+    "answer": "C",
+    "explanation": "Without change-request knowledge, out-of-scope work gets done and in-scope features \nare delayed or defective."
+  },
+  {
+    "id": 170,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q30",
+    "question": "Why is a vigorous defect reduction process still necessary?",
+    "options": {
+      "A": "Defect prevention is not useful",
+      "B": "Testing is optional",
+      "C": "Defects only appear in design",
+      "D": "Realistically, defects will exist no matter how good defect prevention is"
+    },
+    "answer": "D",
+    "explanation": "Even with good prevention, defects will exist, so a vigorous reduction process is still \nneeded."
+  },
+  {
+    "id": 171,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q31",
+    "question": "Inspection is best described as:",
+    "options": {
+      "A": "A walkthrough of different artifacts to provide another \"eye\" for finding defects",
+      "B": "A tool for compiling code",
+      "C": "A customer survey",
+      "D": "A marketing activity"
+    },
+    "answer": "A",
+    "explanation": "Inspections are walkthroughs of artifacts, code included, that give another pair of eyes to \nspot problems."
+  },
+  {
+    "id": 172,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q32",
+    "question": "In the inspection example, what caused the normal login to break?",
+    "options": {
+      "A": "A hardware failure",
+      "B": "The social media login plugin was changing a variable status at the database level used by the \nnormal login; a different plugin was chosen",
+      "C": "A missing user manual",
+      "D": "An expired license"
+    },
+    "answer": "B",
+    "explanation": "The social media plugin changed a database variable used by normal login, so a different \nplugin was chosen."
+  },
+  {
+    "id": 173,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q33",
+    "question": "Testing is defined as a core Quality Assurance activity where the Quality Assurance team:",
+    "options": {
+      "A": "Writes the code",
+      "B": "Hires developers",
+      "C": "Executes the product to find defects and ensure it gives the required output",
+      "D": "Designs the architecture"
+    },
+    "answer": "C",
+    "explanation": "Testing executes the product to find defects and confirm the required output, starting \nformally when code is handed to Quality Assurance."
+  },
+  {
+    "id": 174,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q34",
+    "question": "Defect containment is most important for high-impact applications such as:",
+    "options": {
+      "A": "Medical, transportation and nuclear software",
+      "B": "Games and entertainment apps",
+      "C": "Personal blogs",
+      "D": "Screen savers"
+    },
+    "answer": "A",
+    "explanation": "In medical, transportation and nuclear software, the risks of defects are very high."
+  },
+  {
+    "id": 175,
+    "source_file": "Software Quality Engineering – MCQ Bank.pdf",
+    "source_name": "Comprehensive MCQ Bank (175 MCQs)",
+    "set_name": "Set 5: Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q35",
+    "question": "Because exhaustive testing is impossible, the final possible strategy is to:",
+    "options": {
+      "A": "Release without testing",
+      "B": "Add more features",
+      "C": "Ignore rare conditions",
+      "D": "Break the fault-failure relation to contain the damage"
+    },
+    "answer": "D",
+    "explanation": "Since testing every condition is impossible, the final strategy is to break the fault-failure \nrelation to contain the damage."
+  },
+  {
+    "id": 176,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q1",
+    "question": "Which statement correctly describes the tension between customer and developer quality \nrequirements, as presented in Lecture 1?",
+    "options": {
+      "A": "Customers prioritise qualities such as maintainability and reusability, whereas developers \nprioritise qualities such as efficiency and reliability.",
+      "B": "Customers and developers hold the same quality requirements but express them in \ndifferent terminology.",
+      "C": "Customers stress efficiency and reliability, whereas developers stress maintainability and \nreusability.",
+      "D": "Customers emphasise qualities that can be specified unambiguously, whereas developers \nemphasise qualities that cannot be specified."
+    },
+    "answer": "C",
+    "explanation": "Source: lec_1.pptx, Slide 3 \nA. Incorrect. Reversed: efficiency and reliability are the customer's requirements, maintainability and reusability \nthe developer's. \nB. Incorrect. The slide describes a genuine tension between different requirements, not a terminology \ndifference. \nC. Correct. Matches Slide 3 exactly. \nD. Incorrect. Slide 3 says some quality requirements are hard to specify, but does not divide them between \ncustomer and developer this way."
+  },
+  {
+    "id": 177,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q2",
+    "question": "A developer misreads the requirement to add two numbers and writes the statement ans = value1 - \nvalue2. When the program runs, it displays a wrong result. Using the terminology of Module 1, \nwhich sequence correctly names the developer's mistake, the incorrect statement, and the wrong \noutput, in order of occurrence?",
+    "options": {
+      "A": "Error, fault, failure",
+      "B": "Fault, error, failure",
+      "C": "Failure, fault, error",
+      "D": "Error, failure, fault"
+    },
+    "answer": "A",
+    "explanation": "Source: SQE_Discipline.pdf, sections J–M (Fault, Failure and their examples) and D (Error) \nA. Correct. Error (human mistake) leads to a fault (incorrect step in the program), which leads to a failure (wrong \nbehaviour). \nB. Incorrect. Reverses the first two: faults are the result of errors, not the cause of them. \nC. Incorrect. Reverses the whole chain; failure is the result of a fault. \nD. Incorrect. Failure is the result of a fault, so it cannot come before the fault."
+  },
+  {
+    "id": 178,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q3",
+    "question": "A project has a fixed, closed budget of PKR 100,000 for four features, with PKR 80,000 for \ndevelopment and PKR 20,000 for quality activities. The client then requests additional features at \nthe same total price. According to Module 02, what is the most likely consequence?",
+    "options": {
+      "A": "The quality allocation increases, because each additional feature requires more verification \neffort.",
+      "B": "The quality allocation is unaffected, because quality is budgeted separately from the \nfeatures that are added.",
+      "C": "The total budget expands automatically so that functionality and quality can both be \nfunded.",
+      "D": "The share of the fixed budget left for quality activities shrinks, so product quality tends to \ndecrease."
+    },
+    "answer": "D",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, sections B–C (Function-Quality-Cost; Quality vs. Pre-defined Budget) \nA. Incorrect. The module says more features reduce the budget share for quality. \nB. Incorrect. Features and quality compete for the same fixed budget, so they are not independent. \nC. Incorrect. The budget is closed and fixed in this scenario; it does not expand. \nD. Correct. Matches the module: in a closed-budget project, more features mean lower quality."
+  },
+  {
+    "id": 179,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q4",
+    "question": "Defects keep recurring in a project because project managers do not know how to handle change \nrequests. The organisation trains its managers in the change-request process so that this source of \ndefects stops arising. Under the QA classification scheme in the notes, this response is mainly:",
+    "options": {
+      "A": "defect detection, because it finds defects that have already been injected.",
+      "B": "defect prevention, because it addresses a root cause so that the defects do not recur.",
+      "C": "defect containment, because it limits the damage caused by escaping defects.",
+      "D": "post-release defect repair, because the defects were found in versions that had already \nbeen released."
+    },
+    "answer": "B",
+    "explanation": "Source: Quality_Assurance_Basics.pdf, sections B, G, L, M \nA. Incorrect. Detection finds existing defects; this response targets their cause. \nB. Correct. Correct: prevention addresses root causes to avoid future occurrence. \nC. Incorrect. Containment limits damage from defects that already exist; it does not remove their cause. \nD. Incorrect. Post-release repair is not a QA category in the scheme and the response does not repair defects."
+  },
+  {
+    "id": 180,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q5",
+    "question": "A hospital deploys a system that satisfies every requirement in its specification. Staff nevertheless \nfind it unsuitable for the conditions on the ward where it is used. Which statement best describes \nthis outcome in terms of the quality types in Lecture 2?",
+    "options": {
+      "A": "Product quality is low, because meeting the specification alone does not make a product fit \nfor its intended purpose.",
+      "B": "Process quality is low, because an unfit product implies that the defined processes were not \ncompleted.",
+      "C": "Product quality and quality in use are both satisfied, because the specification defines \nfitness for purpose.",
+      "D": "Product quality is satisfied, but quality in use is not, because fitness for purpose depends \non the context of use."
+    },
+    "answer": "D",
+    "explanation": "Source: lec_2.pptx, Slide 2 \nA. Incorrect. Lecture 2 defines product quality as the degree to which requirements are met, which holds here. \nB. Incorrect. The stem gives no information about the process; the inference is unsupported. \nC. Incorrect. Quality in use concerns fitness in a particular context, which the staff say is not met. \nD. Correct. Matches the definitions of product quality and quality in use."
+  },
+  {
+    "id": 181,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q6",
+    "question": "A risk analyst estimates that a quality failure has a probability of 0.05 and would cause a potential \nloss of PKR 2,000,000. Using the relationship given in Module 02, the risk exposure is:",
+    "options": {
+      "A": "PKR 10,000",
+      "B": "PKR 100,000",
+      "C": "PKR 2,000,000",
+      "D": "PKR 40,000,000"
+    },
+    "answer": "B",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, section J (Risk Analysis Approach) \nA. Incorrect. Not obtainable from RE = P × L with these values. \nB. Correct. Correct: 0.05 × 2,000,000 = 100,000. \nC. Incorrect. This is the potential loss, not the exposure; probability is ignored. \nD. Incorrect. Obtained by dividing the loss by the probability, which is not the stated relationship."
+  },
+  {
+    "id": 182,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q7",
+    "question": "Which statement correctly distinguishes a bug from a defect, as these terms are used in Module 1?",
+    "options": {
+      "A": "A bug is an error found before the software is shipped, whereas a defect is a deviation \nfrom customer requirements, mostly found after shipment.",
+      "B": "A bug is a deviation from customer requirements found at the production site, whereas a \ndefect is an error found and accepted by developers before shipment.",
+      "C": "A bug is a human action that produces an incorrect result, whereas a defect is the inability \nof a program to behave as expected.",
+      "D": "A bug can be eliminated by effective defect prevention, whereas a defect is unavoidable \nonce the software has been shipped."
+    },
+    "answer": "A",
+    "explanation": "Source: SQE_Discipline.pdf, sections F and H (Defect, Bug) \nA. Correct. Matches Module 1's definitions. \nB. Incorrect. Swaps the two definitions. \nC. Incorrect. These are the definitions of an error and a failure, not of a bug and a defect. \nD. Incorrect. Module 1 states there is no bug-free software, so bugs cannot be eliminated by prevention alone."
+  },
+  {
+    "id": 183,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q8",
+    "question": "A report-generation module produces correct totals for every test input, but takes about three \nminutes to produce a report where the specification requires a response within ten seconds. Using \nthe quality types in Lecture 1, which assessment is most accurate?",
+    "options": {
+      "A": "Functional quality is deficient, because the module does not do what it is supposed to do, \nsince the report requirement is not being met.",
+      "B": "Latent quality is deficient, because the module is slow at present and is therefore expected \nto remain slow.",
+      "C": "Functional quality is satisfactory, but non-functional quality is deficient, since the module \nworks less well than required.",
+      "D": "Non-functional quality is satisfactory, because correct results matter more than the time \ntaken to produce them."
+    },
+    "answer": "C",
+    "explanation": "Source: lec_1.pptx, Slide 6 \nA. Incorrect. The totals are correct, so what the module does matches what it should do. \nB. Incorrect. Latent quality concerns how well the software will continue to perform in future; the stem concerns \ncurrent performance against a stated requirement. \nC. Correct. Functional quality is what the software does; non-functional quality is how well it does it. \nD. Incorrect. Non-functional quality compares how well it works with how well it should; the ten-second \nrequirement is not met."
+  },
+  {
+    "id": 184,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q9",
+    "question": "A supermarket's cash register handles thousands of purchases of bread, milk and cheese every day \nwithout problems. The whole system freezes when a customer pays with cash, a credit card and a \ngift voucher together. Which explanation best fits the notes' account of such pre-release defects?",
+    "options": {
+      "A": "The defect lay in the most heavily used scanning function, which had received the most QA \nattention.",
+      "B": "The defect was a known bug that the developers had accepted and deliberately shipped \nwith the release.",
+      "C": "The defect arose because the developers lacked adequate knowledge of the terminology \nused in retail work.",
+      "D": "It stayed dormant in a rarely exercised area with little QA focus and was triggered only by \nan unusual situation."
+    },
+    "answer": "D",
+    "explanation": "Source: Quality_Assurance_Basics.pdf, sections C–D (Pre-Release Defects, cash register example) \nA. Incorrect. The scanning function works without trouble, so the defect is not there. \nB. Incorrect. Nothing indicates the bug was known; the notes say the payment method was not tested properly. \nC. Incorrect. Domain knowledge is not the cause given in this example. \nD. Correct. Matches the notes: dormant defects sit in low-priority areas and are triggered by specific situations."
+  },
+  {
+    "id": 185,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q10",
+    "question": "The tree-swing illustration in Lecture 2 shows six panels, from \"As Management Requested It\" to \n\"What The User Wanted\". Which conclusion is best supported by the illustration?",
+    "options": {
+      "A": "The product delivered can differ markedly from what the user wanted, because \nrequirements are reinterpreted at each stage.",
+      "B": "The programmers' version is the closest to what the user wanted, so errors arise mainly \nduring the design stage.",
+      "C": "Management's request and the user's need are identical, so any deviation from the user's \nneed arises only after installation.",
+      "D": "Only the installed version differs from what the user needed, since all the earlier panels \nshow the same design."
+    },
+    "answer": "A",
+    "explanation": "Source: lec_2.pptx, Slide 3 (Different Views of Quality, tree-swing illustration) \nA. Correct. Panels 1 to 5 each differ from one another and from panel 6. \nB. Incorrect. The programmers' panel does not resemble the user's need, so it cannot be the closest. \nC. Incorrect. Panel 1 and panel 6 differ visibly. \nD. Incorrect. The earlier panels show different designs from each other."
+  },
+  {
+    "id": 186,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q11",
+    "question": "Years after a serious software failure, a company finds that investors have steadily withdrawn their \ntrust and that its market share has eroded, although no single loss was visible at the time of the \nincident. Under the Eppler and Helfert classification in Module 02, these losses are best described \nas:",
+    "options": {
+      "A": "direct costs, because loss of investment is a financial loss that can be measured at the time.",
+      "B": "indirect costs, because they are hidden, hard to calculate and emerge long after the \nincident.",
+      "C": "direct costs, because they originate from the missing quality in the software that was \ndelivered.",
+      "D": "indirect costs, because they are observed immediately but cannot be expressed in money."
+    },
+    "answer": "B",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, sections G–H (Direct and Indirect Cost of missing Quality) \nA. Incorrect. Financial loss is a direct-cost example, but loss of investor trust and market share is listed as \nindirect, being delayed and hard to measure. \nB. Correct. Matches the module's description of indirect costs. \nC. Incorrect. Both direct and indirect costs are linked to missing quality; origin does not separate them. \nD. Incorrect. Indirect costs are not observed immediately; they appear after a long time."
+  },
+  {
+    "id": 187,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q12",
+    "question": "Two builds of an application provide the same required functions at the same level of performance \nunder the same stated conditions. Build X uses noticeably less memory, disk space and network \ncapacity than Build Y. Which ISO-9126 characteristic distinguishes the two builds?",
+    "options": {
+      "A": "Functionality",
+      "B": "Reliability",
+      "C": "Efficiency",
+      "D": "Portability"
+    },
+    "answer": "C",
+    "explanation": "Source: SQE_Discipline.pdf, ISO-9126: Efficiency \nA. Incorrect. Both builds provide the same functions. \nB. Incorrect. Both maintain the same performance level under the same conditions. \nC. Correct. Efficiency relates performance to the resources used. \nD. Incorrect. Portability concerns transfer between environments, which is not at issue."
+  },
+  {
+    "id": 188,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q13",
+    "question": "A vendor discovers a defect in a product that is already installed at many customer sites. Which \nstatement best explains why this post-release defect is typically more costly to the vendor than one \nfound before release?",
+    "options": {
+      "A": "Post-release defects are technically more complex because they involve more modules than \ndefects found earlier.",
+      "B": "The customers must bear the cost of repair, which raises the compensation payments the \nvendor has to make.",
+      "C": "Testing at the production site is inherently more expensive than inspection carried out \nduring development.",
+      "D": "The fix must be applied at every installation, and the vendor's reputation, trust and \nmarket position suffer."
+    },
+    "answer": "D",
+    "explanation": "Source: Quality_Assurance_Basics.pdf, section E (Post-Release Defects) \nA. Incorrect. Complexity is not the reason the notes give. \nB. Incorrect. The notes say the supplier pays to fix post-release defects. \nC. Incorrect. The notes do not compare testing and inspection costs. \nD. Correct. Matches the notes: multiple installations plus damage to image and market position."
+  },
+  {
+    "id": 189,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q14",
+    "question": "Which pair of models does Lecture 2 classify as application or company specific, rather than \nstandard?",
+    "options": {
+      "A": "FURPS and the GQM approach",
+      "B": "McCall and IEEE",
+      "C": "ISO/IEC 9126 and FURPS",
+      "D": "McCall and the GQM approach"
+    },
+    "answer": "A",
+    "explanation": "Source: lec_2.pptx, Slide 4 (Quality Models) \nA. Correct. Both are listed under application or company specific models. \nB. Incorrect. Both are standard models. \nC. Incorrect. ISO/IEC 9126 is a standard model. \nD. Incorrect. McCall is a standard model."
+  },
+  {
+    "id": 190,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q15",
+    "question": "A project team cannot predict when or where a quality failure might occur in its software. Why does \nModule 02 regard risk analysis as a better way to evaluate the cost of missing quality in this \nsituation?",
+    "options": {
+      "A": "It records the actual losses after every failure, so the cost can be summed once the events \nare known.",
+      "B": "It removes the probability of failure by identifying and fixing the root cause of each possible \nevent.",
+      "C": "It estimates cost from probability and potential loss, so the time and place of an event \nneed not be known.",
+      "D": "It classifies costs as direct or indirect, so that only the visible and measurable losses need to \nbe estimated."
+    },
+    "answer": "C",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, section J (Risk Analysis Approach) \nA. Incorrect. That describes measuring costs after the fact, not risk analysis. \nB. Incorrect. Root-cause analysis belongs to the impact analysis approach and does not remove probability. \nC. Correct. Matches the module: risk exposure combines probability and potential loss. \nD. Incorrect. Direct and indirect classification is a separate approach, and indirect costs would be ignored."
+  },
+  {
+    "id": 191,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q16",
+    "question": "During an acceptance review, evaluators confirm that a system performs its required functions and \nmeets its performance targets today. They then ask how well it can be expected to continue \nperforming in the future. Which quality type from Lecture 1 does this last question address?",
+    "options": {
+      "A": "Functional quality",
+      "B": "Latent quality",
+      "C": "Non-functional quality",
+      "D": "Quality in use"
+    },
+    "answer": "B",
+    "explanation": "Source: lec_1.pptx, Slide 6 \nA. Incorrect. Functional quality concerns what the software does versus what it should do. \nB. Correct. Latent quality is how well the software will continue to do it in the future. \nC. Incorrect. Non-functional quality concerns how well it does it now versus how well it should. \nD. Incorrect. Quality in use concerns fitness for purpose in a particular context of use, not future performance."
+  },
+  {
+    "id": 192,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q17",
+    "question": "A company acquires a software system for its employees to use. Compared with the employees who \nuse the system, which additional concern is characteristic of the acquiring customer, according to \nModule 1?",
+    "options": {
+      "A": "The cost of the software solution",
+      "B": "Fulfilling contractual obligations by delivering a product that conforms to its specifications",
+      "C": "The choice of programming languages and development tools",
+      "D": "The ease with which the code can be modified by the maintenance team"
+    },
+    "answer": "A",
+    "explanation": "Source: SQE_Discipline.pdf, Roles and Responsibility (Consumer: Users and Customer) \nA. Correct. Customers share users' expectations with additional concentration on cost. \nB. Incorrect. This is the producer's biggest concern. \nC. Incorrect. Choice of languages and tools is associated with producers. \nD. Incorrect. Modifiability is listed among producer concerns."
+  },
+  {
+    "id": 193,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q18",
+    "question": "A defect escapes to customers after release, and the vendor must investigate and repair it at the \ncustomer sites. Which cost-of-quality category in Lecture 2 does this repair effort belong to?",
+    "options": {
+      "A": "Prevention cost",
+      "B": "Appraisal cost",
+      "C": "Internal failure cost",
+      "D": "External failure cost"
+    },
+    "answer": "D",
+    "explanation": "Source: lec_2.pptx, Slide 5 (Cost of Quality) \nA. Incorrect. Prevention cost is spent to stop defects arising, not to repair them. \nB. Incorrect. Appraisal cost relates to checking the product, not repairing escaped defects. \nC. Incorrect. Internal failure cost is incurred before the product reaches customers. \nD. Correct. The defect reached customers, so this is an external failure."
+  },
+  {
+    "id": 194,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q19",
+    "question": "A log-export feature was tested with 30,000 records and worked correctly. In production, records \nwent missing from the CSV file beyond 500,000 records. The SRS stated no upper limit on record \nvolume. What does this case most directly show?",
+    "options": {
+      "A": "The export logic was never tested before release, so the defect could not have been \ndetected in advance.",
+      "B": "A plugin that changed database variables used by another module caused the missing \nrecords.",
+      "C": "A gap in the requirements kept the test volume far below production volume, so the \ndefect appeared after release.",
+      "D": "The production site changed the requirement after delivery, which then caused the records \nto go missing."
+    },
+    "answer": "C",
+    "explanation": "Source: Quality_Assurance_Basics.pdf, section F (Example of Post-Release Defects) \nA. Incorrect. The feature was tested, with 30,000 records. \nB. Incorrect. That is the cause in the login inspection example, not this one. \nC. Correct. Matches the example: no upper limit in the SRS led to a test volume of 30,000 against failures beyond \n500,000. \nD. Incorrect. Nothing says the requirement changed."
+  },
+  {
+    "id": 195,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q20",
+    "question": "A product has an excellent user interface but no firewall protecting its database. With additional \nmoney available for quality, which use does Module 02 support in order to lower the probability of \nproduct failure?",
+    "options": {
+      "A": "Further cosmetic improvements to the interface, because users tend to judge a product by \nits appearance first.",
+      "B": "Adding the database firewall, because missing protection leaves the product open to \nthreats that UI polish cannot remove.",
+      "C": "Adding new features, because features determine the behaviour on which user satisfaction \nultimately depends.",
+      "D": "Splitting the money equally between interface work and the firewall, because both \ncontribute to overall quality."
+    },
+    "answer": "B",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, section D (What are Missing Quality Requirements?) \nA. Incorrect. The module says the firewall matters more than cosmetic UI changes. \nB. Correct. Matches the module's firewall versus cosmetic UI example. \nC. Incorrect. The money is for quality, and features compete with quality for budget. \nD. Incorrect. The module ranks the firewall above cosmetic changes rather than treating them equally."
+  },
+  {
+    "id": 196,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q21",
+    "question": "The Lecture 2 chart titled \"Kill them before they cost you\" shows the relative cost of fixing a \nsoftware defect by life-cycle stage. Which statement is supported by the chart?",
+    "options": {
+      "A": "Fixing a defect in customer testing costs more than in developer testing, and fixing it in \nservice costs the most.",
+      "B": "Fixing a defect during developer testing costs more than fixing the same defect during \ncustomer testing.",
+      "C": "The cost of fixing a defect in service is roughly the same as the cost of fixing it in customer \ntesting.",
+      "D": "The cost of fixing a defect falls once the software is released, because customers then report \nthe faults."
+    },
+    "answer": "A",
+    "explanation": "Source: lec_2.pptx, Slide 5 (chart: Kill them before they cost you, Barry Boehm, TRW Inc.) \nA. Correct. Matches the chart: cost rises through developer testing, customer testing and in service. \nB. Incorrect. The customer testing bar is longer than the developer testing bar. \nC. Incorrect. The in-service bar is far longer than the customer testing bar. \nD. Incorrect. The in-service cost is the highest, not lower."
+  },
+  {
+    "id": 197,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q22",
+    "question": "In Module 1, the statement if ($Amount=100) is corrected to if ($Amount==100) and is presented as \na semantic error. Which reason best explains this classification?",
+    "options": {
+      "A": "The statement breaks the grammar of the language, so the program cannot be executed at \nall.",
+      "B": "The statement calls a function that has not been defined anywhere in the program.",
+      "C": "The statement uses a variable name that differs from the name declared earlier in the \nprogram.",
+      "D": "The correction changes the logic of the condition, not the grammatical form of the \nstatement."
+    },
+    "answer": "D",
+    "explanation": "Source: SQE_Discipline.pdf, sections D–E (What is Error? / Example of Error) \nA. Incorrect. That would describe a syntax error; the source labels this one semantic and says the logic is \nchanged. \nB. Incorrect. No undefined function is involved. \nC. Incorrect. The variable name is the same in both versions. \nD. Correct. Matches the source: the corrected version is annotated \"Change the logic\"."
+  },
+  {
+    "id": 198,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q23",
+    "question": "Lecture 1 describes \"quality means meeting the specification\" as problematical for software \nsystems. Which reason does the lecture give?",
+    "options": {
+      "A": "Software specifications are normally written only after the coding of the system is complete.",
+      "B": "Customers do not hold quality requirements for the software, so there is nothing for the \nspecification to state.",
+      "C": "Specifications are usually incomplete and often inconsistent, and some quality \nrequirements resist unambiguous statement.",
+      "D": "Conformance to a specification can be checked only after the software has been delivered \nto the customer."
+    },
+    "answer": "C",
+    "explanation": "Source: lec_1.pptx, Slide 3 \nA. Incorrect. Not stated in Lecture 1. \nB. Incorrect. The slide says customers do have quality requirements (efficiency, reliability, etc.). \nC. Correct. Matches the slide's stated reasons. \nD. Incorrect. Not stated in Lecture 1."
+  },
+  {
+    "id": 199,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q24",
+    "question": "In a shared code base, a code review discovered that the plugin used for social-media login was \nchanging a database-level variable relied on by the normal login module, and the team replaced the \nplugin. Why do the notes describe inspection as direct fault detection and removal?",
+    "options": {
+      "A": "The product is executed with chosen test inputs so that the resulting failures reveal where \nthe faults lie.",
+      "B": "The review removes the source of errors from the development process so that defects are \nnot injected later.",
+      "C": "The review limits the damage when a fault is triggered by breaking the fault-failure relation.",
+      "D": "Human inspectors examine the artifact itself, so existing defects are typically located \nprecisely and fixed easily."
+    },
+    "answer": "D",
+    "explanation": "Source: Quality_Assurance_Basics.pdf, sections O–P (Inspection) \nA. Incorrect. That describes testing, not inspection. \nB. Incorrect. That describes defect prevention. \nC. Incorrect. That describes defect containment. \nD. Correct. Matches the quotation from Tian in the notes."
+  },
+  {
+    "id": 200,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q25",
+    "question": "Which pairing of activity and category is consistent with the classification scheme for QA in Lecture \n2?",
+    "options": {
+      "A": "Process conformance and standards enforcement: defect prevention",
+      "B": "Static testing of documents and code: defect containment",
+      "C": "Software fault tolerance: defect reduction (detection and removal)",
+      "D": "Education and training of the team: defect containment"
+    },
+    "answer": "A",
+    "explanation": "Source: lec_2.pptx, Slide 8 (Classification scheme for QA) \nA. Correct. Listed under defect prevention. \nB. Incorrect. Static testing is listed under defect reduction. \nC. Incorrect. Software fault tolerance is listed under defect containment. \nD. Incorrect. Education and training is listed under defect prevention."
+  },
+  {
+    "id": 201,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q26",
+    "question": "A software system is used continuously, with interruptions only for version changes. Its failure could \nseriously threaten human lives, cause permanent injury or severe illness, and damage the \nenvironment, with important economic or social impact. Which IEEE criticality level in Module 02 \nmatches this description?",
+    "options": {
+      "A": "Level A: Catastrophic",
+      "B": "Level B: Critical",
+      "C": "Level C: Marginal",
+      "D": "Level D: Negligible"
+    },
+    "answer": "B",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, section K (Level of Risk) \nA. Incorrect. Level A involves 24-hour usage, irreversible environmental damage and loss of human lives. \nB. Correct. Matches the Level B descriptors. \nC. Incorrect. Level C involves property damage and minor injury or illness. \nD. Incorrect. Level D involves no risk to human lives."
+  },
+  {
+    "id": 202,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q27",
+    "question": "A team plans to add a ready-made plugin to its application. Which statement from Module 1 best \njustifies analysing the plugin carefully before adopting it?",
+    "options": {
+      "A": "Off-the-shelf products always cost less than developing the same functionality inside the \norganisation.",
+      "B": "Off-the-shelf products must be developed and tested together with the solution that will \nuse them.",
+      "C": "Off-the-shelf products are developed and tested independently, and one solution does not \nfit all.",
+      "D": "Off-the-shelf products are available only to users who are willing to pay for them."
+    },
+    "answer": "C",
+    "explanation": "Source: SQE_Discipline.pdf, Off the Shelf Products \nA. Incorrect. Cost advantage is not claimed. \nB. Incorrect. They are developed and tested independently. \nC. Correct. Matches the Module 1 text on OTS products. \nD. Incorrect. OTS products are available at cost or not."
+  },
+  {
+    "id": 203,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q28",
+    "question": "An audit finds that several planned review and approval steps in an organisation's defined process \nwere skipped, although the delivered software passes all its requirement-based acceptance tests. \nWhich statement is most accurate according to Lecture 2?",
+    "options": {
+      "A": "Process quality is deficient, because it is the degree to which the defined processes were \nfollowed and completed.",
+      "B": "Product quality is deficient, because skipped steps necessarily lower the degree to which \nrequirements are met.",
+      "C": "Quality in use is deficient, because skipped steps mean the software cannot be fit for its \npurpose.",
+      "D": "Neither is deficient, because process quality is determined solely by whether the product \nmeets its requirements."
+    },
+    "answer": "A",
+    "explanation": "Source: lec_2.pptx, Slide 2 \nA. Correct. Matches the definition of process quality. \nB. Incorrect. Product quality is the degree to which requirements are met, which the tests show is satisfied. \nC. Incorrect. Nothing is said about the context of use. \nD. Incorrect. Process quality is about following defined processes, not about product requirements."
+  },
+  {
+    "id": 204,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q29",
+    "question": "A team building medical software has applied training, reviews and extensive testing. It accepts that \ntesting cannot cover every condition and that some faults may still be triggered in rare situations. \nAccording to the notes, which strategy addresses this remaining risk?",
+    "options": {
+      "A": "Continue testing until every possible condition and every combination of inputs has been \nexecuted.",
+      "B": "Strengthen education and training so that no faults can be injected into the software in \nfuture.",
+      "C": "Increase the number of inspections so that all remaining faults are removed before the \nrelease.",
+      "D": "Break the relation between faults and failures so that triggered faults do not cause \ndamage."
+    },
+    "answer": "D",
+    "explanation": "Source: Quality_Assurance_Basics.pdf, section R (Defect Containment) \nA. Incorrect. The notes say exhaustive testing is impossible. \nB. Incorrect. Prevention cannot guarantee a defect-free product. \nC. Incorrect. Reduction cannot remove all faults. \nD. Correct. Matches the notes: the final strategy is to break the fault-failure relation to contain damage."
+  },
+  {
+    "id": 205,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q30",
+    "question": "In the Yahoo breach discussed in Module 02, which option correctly pairs each party with \nconsequences the module identifies?",
+    "options": {
+      "A": "Customers: lawsuits and the cost of investigating the root cause. Yahoo: loss of privacy and \nconfidential information.",
+      "B": "Customers: loss of privacy and confidential information. Yahoo: loss of trust, financial loss, \nlawsuits, investigation costs.",
+      "C": "Customers: no consequences, because the breach was a supplier-side event. Yahoo: all of \nthe consequences.",
+      "D": "Customers: physical injury. Yahoo: loss of market share, with no other consequences."
+    },
+    "answer": "B",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, sections E and I (Cost of Missing Quality Requirements; Impact Analysis \nApproach) \nA. Incorrect. Swaps the parties. \nB. Correct. Matches section I. \nC. Incorrect. The module says both customers and suppliers bear consequences. \nD. Incorrect. Physical injury is not reported for Yahoo, and Yahoo's consequences are wider."
+  },
+  {
+    "id": 206,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q31",
+    "question": "Which statement best reflects the definition of software quality assurance given in Lecture 2?",
+    "options": {
+      "A": "Testing carried out by the QA team after the code is handed over, to prove that the software \nhas no defects.",
+      "B": "Reactive work performed after a failure is reported, to restore the level of quality that was \nrequired.",
+      "C": "Planned and systematic activities within a quality system that give adequate confidence \nthat quality requirements will be met.",
+      "D": "Measures that guarantee an entity will be free of defects once all of its requirements have \nbeen met."
+    },
+    "answer": "C",
+    "explanation": "Source: lec_2.pptx, Slide 7 \nA. Incorrect. The definition is not limited to testing and does not claim proof of zero defects. \nB. Incorrect. The definition describes planned activities, not reactive ones. \nC. Correct. Matches the quoted definition. \nD. Incorrect. The definition speaks of adequate confidence, not a guarantee."
+  },
+  {
+    "id": 207,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q32",
+    "question": "The defect-filtering figure in Module 1 passes customer requirements through four filters \n(requirement defects, design and planning defects, coding defects, testing defects) and ends with a \n\"99.9% bug free product\". Which conclusion is consistent with the figure and its accompanying text?",
+    "options": {
+      "A": "Successive filters progressively reduce defects, yet even the final product cannot be called \ncompletely bug-free.",
+      "B": "A single filter at the testing stage is sufficient to remove all of the defects introduced earlier.",
+      "C": "The filters are applied in the order testing, coding, design and requirements, so the latest \ndefects are removed first.",
+      "D": "Once the requirements filter has been applied, no further defect can be injected at any later \nstage."
+    },
+    "answer": "A",
+    "explanation": "Source: SQE_Discipline.pdf, Defect Prevention (figure) and Defect Detection or Reduction \nA. Correct. Matches the figure and text: 99.99% does not mean 100%. \nB. Incorrect. Four filters are shown and the product still falls short of 100%. \nC. Incorrect. The figure places requirements first and testing last. \nD. Incorrect. The figure shows defects at the design, coding and testing stages too."
+  },
+  {
+    "id": 208,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q33",
+    "question": "A team is developing a property-tax calculation system in which rates depend on property category, \ncovered area and the applicable law. The developers are purely technical resources. Why do the \nnotes suggest involving a domain specialist?",
+    "options": {
+      "A": "To write the code faster, since domain specialists are more productive than the developers.",
+      "B": "To replace the business analysts, who are unable to interpret the terms used in the domain.",
+      "C": "To remove the need for written requirements, since specialists already know what has to be \nbuilt.",
+      "D": "To make sure domain terminology and rules are interpreted correctly, since weak domain \nknowledge causes ambiguity and confusion."
+    },
+    "answer": "D",
+    "explanation": "Source: Quality_Assurance_Basics.pdf, sections I–J (Domain Knowledge) \nA. Incorrect. Productivity is not the stated reason. \nB. Incorrect. Specialists work with business analysts and/or developers; they do not replace them. \nC. Incorrect. Requirements remain necessary. \nD. Correct. Matches the notes."
+  },
+  {
+    "id": 209,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q34",
+    "question": "According to Lecture 2, what role does the SQA plan play when the quality measured during \ndevelopment falls outside the planned quality levels?",
+    "options": {
+      "A": "It automatically halts development until the planned levels of quality have been re-\nestablished.",
+      "B": "It provides the basis for comparing actual and planned quality and documents \nmanagement's response.",
+      "C": "It transfers responsibility for corrective action from management to the independent test \nobserver.",
+      "D": "It replaces the planned levels with the lower levels that were actually achieved during \ndevelopment."
+    },
+    "answer": "B",
+    "explanation": "Source: lec_2.pptx, Slide 11 (SQA Plan) \nA. Incorrect. The slide does not say development is halted automatically. \nB. Correct. Matches Slide 11. \nC. Incorrect. The slide says management responds as documented in the plan. \nD. Incorrect. Nothing says planned levels are lowered."
+  },
+  {
+    "id": 210,
+    "source_file": "SQE.pdf",
+    "source_name": "SQE Official Exam Paper (35 MCQs)",
+    "set_name": "Official SQE MCQ Examination",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q35",
+    "question": "Module 02 links user satisfaction to requirements through a chain of facts. Which conclusion follows \nfrom that chain when the quality requirements of a product are missing?",
+    "options": {
+      "A": "User satisfaction is unaffected, because satisfaction depends only on the features that have \nbeen implemented.",
+      "B": "User satisfaction is unaffected, because behaviour is defined by the code rather than by the \nrequirements.",
+      "C": "Those qualities are not built into the code's behaviour, weakening overall behaviour and \nuser satisfaction.",
+      "D": "The code will implement the missing qualities automatically, since behaviour is realised \nthrough code."
+    },
+    "answer": "C",
+    "explanation": "Source: Cost_of_Software_Quality.pdf, section A (Economics of Software Quality Engineering) \nA. Incorrect. The module says behaviour is defined through features and quality. \nB. Incorrect. The module says features and quality are determined through requirements. \nC. Correct. Follows the chain: requirements determine features and quality, code executes behaviour, behaviour \ndrives satisfaction. \nD. Incorrect. Code implements only what the requirements specify."
+  },
+  {
+    "id": 211,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q1",
+    "question": "What are pre-release defects also called?",
+    "options": {
+      "A": "Fatal faults",
+      "B": "Dormant defects",
+      "C": "Rare errors",
+      "D": "Hidden bugs"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Dormant defects"
+  },
+  {
+    "id": 212,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q2",
+    "question": "Who pays to fix post-release defects?",
+    "options": {
+      "A": "Customer",
+      "B": "Third party",
+      "C": "Supplier company",
+      "D": "Regulator"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): Supplier company"
+  },
+  {
+    "id": 213,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q3",
+    "question": "Which document lacked an upper limit in the CSV example?",
+    "options": {
+      "A": "Test plan",
+      "B": "Design doc",
+      "C": "Release notes",
+      "D": "SRS"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): SRS"
+  },
+  {
+    "id": 214,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q4",
+    "question": "How many CSV records did QA actually test?",
+    "options": {
+      "A": "500000",
+      "B": "3000",
+      "C": "30000",
+      "D": "50000"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): 30000"
+  },
+  {
+    "id": 215,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q5",
+    "question": "Which QA activity provides \"another eye\" on artifacts?",
+    "options": {
+      "A": "Inspection",
+      "B": "Deployment",
+      "C": "Prototyping",
+      "D": "Benchmarking"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): Inspection"
+  },
+  {
+    "id": 216,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q6",
+    "question": "Which login method's plugin was replaced in the inspection example?",
+    "options": {
+      "A": "Normal login",
+      "B": "Social media",
+      "C": "Biometric",
+      "D": "Two-factor"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Social media"
+  },
+  {
+    "id": 217,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Quality Assurance Basics",
+    "topic": "Quality Assurance Basics & Defect Prevention",
+    "question_number": "Q7",
+    "question": "Poor handling of what caused out-of-scope coding after the demo?",
+    "options": {
+      "A": "Test cases",
+      "B": "Code reviews",
+      "C": "Release notes",
+      "D": "Change requests"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): Change requests"
+  },
+  {
+    "id": 218,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "SQE Discipline",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q1",
+    "question": "Which term means a human action producing an incorrect result?",
+    "options": {
+      "A": "Fault",
+      "B": "Failure",
+      "C": "Error",
+      "D": "Bug"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): Error"
+  },
+  {
+    "id": 219,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "SQE Discipline",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q2",
+    "question": "How many top-level characteristics does ISO-9126 define?",
+    "options": {
+      "A": "Four",
+      "B": "Six",
+      "C": "Five",
+      "D": "Eight"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Six"
+  },
+  {
+    "id": 220,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "SQE Discipline",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q3",
+    "question": "Which characteristic includes analyzability and changeability?",
+    "options": {
+      "A": "Portability",
+      "B": "Usability",
+      "C": "Efficiency",
+      "D": "Maintainability"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): Maintainability"
+  },
+  {
+    "id": 221,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "SQE Discipline",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q4",
+    "question": "What was wrongly transcribed in the Mariner 1 bug?",
+    "options": {
+      "A": "Variable",
+      "B": "Library",
+      "C": "Formula",
+      "D": "Loop"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): Formula"
+  },
+  {
+    "id": 222,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "SQE Discipline",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q5",
+    "question": "Which wrong operation caused the addition program's fault?",
+    "options": {
+      "A": "Multiplication",
+      "B": "Subtraction",
+      "C": "Division",
+      "D": "Modulus"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Subtraction"
+  },
+  {
+    "id": 223,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "SQE Discipline",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q6",
+    "question": "Which operator corrects the PHP condition example?",
+    "options": {
+      "A": "=",
+      "B": "!=",
+      "C": "<=",
+      "D": "=="
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): =="
+  },
+  {
+    "id": 224,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "SQE Discipline",
+    "topic": "SQE Discipline (Module 01)",
+    "question_number": "Q7",
+    "question": "Which author is cited for defect injection and removal processes?",
+    "options": {
+      "A": "Humphrey",
+      "B": "Laprie",
+      "C": "Tian",
+      "D": "Eppler"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): Humphrey"
+  },
+  {
+    "id": 225,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Cost of Software Quality",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q1",
+    "question": "How much of the PKR 100,000 budget covers quality?",
+    "options": {
+      "A": "25,000 PKR",
+      "B": "80,000 PKR",
+      "C": "20,000 PKR",
+      "D": "50,000 PKR"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): 20,000 PKR"
+  },
+  {
+    "id": 226,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Cost of Software Quality",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q2",
+    "question": "By how much was Yahoo's sale price cut?",
+    "options": {
+      "A": "$350 million",
+      "B": "$480 million",
+      "C": "$500 million",
+      "D": "$4.8 billion"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): $350 million"
+  },
+  {
+    "id": 227,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Cost of Software Quality",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q3",
+    "question": "Which company illustrates indirect cost of missing quality?",
+    "options": {
+      "A": "Yahoo",
+      "B": "Verizon",
+      "C": "Sony",
+      "D": "Nokia"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): Nokia"
+  },
+  {
+    "id": 228,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Cost of Software Quality",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q4",
+    "question": "How is risk exposure calculated?",
+    "options": {
+      "A": "P+L",
+      "B": "P×L",
+      "C": "L÷P",
+      "D": "P−L"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): P×L"
+  },
+  {
+    "id": 229,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Cost of Software Quality",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q5",
+    "question": "Which IEEE criticality level is labelled Marginal?",
+    "options": {
+      "A": "Level A",
+      "B": "Level B",
+      "C": "Level C",
+      "D": "Level D"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): Level C"
+  },
+  {
+    "id": 230,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Cost of Software Quality",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q6",
+    "question": "Eppler and Helfert classify costs into which categories?",
+    "options": {
+      "A": "Fixed, variable",
+      "B": "Internal, external",
+      "C": "Hard, soft",
+      "D": "Direct, indirect"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): Direct, indirect"
+  },
+  {
+    "id": 231,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Cost of Software Quality",
+    "topic": "Cost of Software Quality (Module 02)",
+    "question_number": "Q7",
+    "question": "What is the first step of the impact analysis approach?",
+    "options": {
+      "A": "Root-cause analysis",
+      "B": "Fix it",
+      "C": "Identify problem",
+      "D": "Keep going"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): Root-cause analysis"
+  },
+  {
+    "id": 232,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q1",
+    "question": "Simplistically, quality means a product meets its what?",
+    "options": {
+      "A": "Budget",
+      "B": "Specification",
+      "C": "Schedule",
+      "D": "Demand"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Specification"
+  },
+  {
+    "id": 233,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q2",
+    "question": "Which quality type measures future performance?",
+    "options": {
+      "A": "Functional",
+      "B": "Non-functional",
+      "C": "Latent",
+      "D": "Static"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): Latent"
+  },
+  {
+    "id": 234,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q3",
+    "question": "Which quality type compares actual versus expected performance level?",
+    "options": {
+      "A": "Non-functional",
+      "B": "Functional",
+      "C": "Perceived",
+      "D": "Latent"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): Non-functional"
+  },
+  {
+    "id": 235,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q4",
+    "question": "SQA monitors which aspects of software engineering?",
+    "options": {
+      "A": "Salaries",
+      "B": "Hardware",
+      "C": "Processes, methods",
+      "D": "Marketing"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): Processes, methods"
+  },
+  {
+    "id": 236,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q5",
+    "question": "Which is listed as a developer quality requirement?",
+    "options": {
+      "A": "Reusability",
+      "B": "Reliability",
+      "C": "Efficiency",
+      "D": "Cost"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): Reusability"
+  },
+  {
+    "id": 237,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q6",
+    "question": "Software specifications are usually incomplete and what else?",
+    "options": {
+      "A": "Outdated",
+      "B": "Expensive",
+      "C": "Lengthy",
+      "D": "Inconsistent"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): Inconsistent"
+  },
+  {
+    "id": 238,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 1",
+    "topic": "SQE Lecture 1 (Quality Concepts & Specs)",
+    "question_number": "Q7",
+    "question": "What type of assessment does the course emphasize?",
+    "options": {
+      "A": "Subjective",
+      "B": "Quantitative",
+      "C": "Informal",
+      "D": "Qualitative"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Quantitative"
+  },
+  {
+    "id": 239,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q1",
+    "question": "Which quality type addresses fitness within a particular context?",
+    "options": {
+      "A": "Process",
+      "B": "Product",
+      "C": "In-use",
+      "D": "Latent"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): In-use"
+  },
+  {
+    "id": 240,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q2",
+    "question": "Which of these is a recognized view of quality?",
+    "options": {
+      "A": "Procedural",
+      "B": "Transcendental",
+      "C": "Temporal",
+      "D": "Technical"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Transcendental"
+  },
+  {
+    "id": 241,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q3",
+    "question": "Which model is company specific rather than standard?",
+    "options": {
+      "A": "FURPS",
+      "B": "McCall",
+      "C": "IEEE",
+      "D": "ISO 9126"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): FURPS"
+  },
+  {
+    "id": 242,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q4",
+    "question": "Failure cost is split into internal and what?",
+    "options": {
+      "A": "Latent",
+      "B": "Hidden",
+      "C": "Variable",
+      "D": "External"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer is option (D): External"
+  },
+  {
+    "id": 243,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q5",
+    "question": "Static and dynamic testing belong to which QA category?",
+    "options": {
+      "A": "Prevention",
+      "B": "Reduction",
+      "C": "Containment",
+      "D": "Planning"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer is option (B): Reduction"
+  },
+  {
+    "id": 244,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q6",
+    "question": "Which role is an independent member of the SQA team?",
+    "options": {
+      "A": "Test analyst",
+      "B": "Tester",
+      "C": "Test observer",
+      "D": "Test lead"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer is option (C): Test observer"
+  },
+  {
+    "id": 245,
+    "source_file": "SQE_MCQs (1).pdf",
+    "source_name": "SQE Quick Drills (35 MCQs)",
+    "set_name": "Lecture 2",
+    "topic": "SQE Lecture 2 (Quality Types & SQA Plans)",
+    "question_number": "Q7",
+    "question": "The SQA plan compares actual quality against what?",
+    "options": {
+      "A": "Planned levels",
+      "B": "Past projects",
+      "C": "Competitor products",
+      "D": "Customer surveys"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer is option (A): Planned levels"
+  }
+];
