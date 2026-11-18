@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sqe-exam-browser
+    runtime: static
+    buildCommand: echo "Building SQE Exam Browser"
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
